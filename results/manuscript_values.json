@@ -1,0 +1,2299 @@
+{
+  "study": {
+    "start": "1991-01-01",
+    "end": "2020-12-31",
+    "training_end": "2010-12-31",
+    "rain_threshold_mm": 1.0,
+    "success_windows_days": [
+      1,
+      3,
+      7,
+      14
+    ],
+    "locations": 8,
+    "region_days": 87664
+  },
+  "simulation": {
+    "seed": 20260924,
+    "replications_per_model": 10000,
+    "providers": 4,
+    "models": [
+      "M0_random_timing",
+      "M1_drought_demand",
+      "M2_realistic_hazard",
+      "M3_strategic_selection",
+      "M4_bayesian_reputation",
+      "M5_selective_recency"
+    ],
+    "parameters": {
+      "random_request_probability": 0.08,
+      "provider_cost": 0.5,
+      "fixed_price": 3.0,
+      "social_utility": 3.0,
+      "rainfall_value": 20.0,
+      "selective_success_weight": 1.5,
+      "selective_failure_weight": 0.6,
+      "recency": 0.85,
+      "selection_intercept": -1.2,
+      "selection_slope": 5.0,
+      "prior_mean": 0.5,
+      "prior_strength": 2.0
+    },
+    "summary": [
+      {
+        "model": "M0_random_timing",
+        "outcome": "events",
+        "mean": 24.3618,
+        "sd": 4.75187950140569,
+        "ci_low": 15.0,
+        "ci_high": 34.0,
+        "n": 10000
+      },
+      {
+        "model": "M0_random_timing",
+        "outcome": "apparent_success",
+        "mean": 0.6345240240024738,
+        "sd": 0.19102168202765,
+        "ci_low": 0.2666666666666666,
+        "ci_high": 0.96,
+        "n": 10000
+      },
+      {
+        "model": "M0_random_timing",
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "sd": 0.0,
+        "ci_low": 3.0,
+        "ci_high": 3.0,
+        "n": 10000
+      },
+      {
+        "model": "M0_random_timing",
+        "outcome": "price_success_difference",
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n": 9866
+      },
+      {
+        "model": "M0_random_timing",
+        "outcome": "provider_price_dispersion",
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n": 10000
+      },
+      {
+        "model": "M0_random_timing",
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n": 10000
+      },
+      {
+        "model": "M0_random_timing",
+        "outcome": "provider_revenue",
+        "mean": 73.0854,
+        "sd": 14.25563850421707,
+        "ci_low": 45.0,
+        "ci_high": 102.0,
+        "n": 10000
+      },
+      {
+        "model": "M0_random_timing",
+        "outcome": "community_expenditure",
+        "mean": 73.0854,
+        "sd": 14.25563850421707,
+        "ci_low": 45.0,
+        "ci_high": 102.0,
+        "n": 10000
+      },
+      {
+        "model": "M0_random_timing",
+        "outcome": "provider_resource_cost",
+        "mean": 12.1809,
+        "sd": 2.375939750702845,
+        "ci_low": 7.5,
+        "ci_high": 17.0,
+        "n": 10000
+      },
+      {
+        "model": "M0_random_timing",
+        "outcome": "provider_profit",
+        "mean": 60.9045,
+        "sd": 11.879698753514225,
+        "ci_low": 37.5,
+        "ci_high": 85.0,
+        "n": 10000
+      },
+      {
+        "model": "M0_random_timing",
+        "outcome": "community_material_social_utility",
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n": 10000
+      },
+      {
+        "model": "M0_random_timing",
+        "outcome": "total_social_surplus",
+        "mean": 60.9045,
+        "sd": 11.879698753514225,
+        "ci_low": 37.5,
+        "ci_high": 85.0,
+        "n": 10000
+      },
+      {
+        "model": "M0_random_timing",
+        "outcome": "provider_revenue_dispersion",
+        "mean": 5.860503704294441,
+        "sd": 2.491787457313401,
+        "ci_low": 1.5,
+        "ci_high": 11.224972160321824,
+        "n": 10000
+      },
+      {
+        "model": "M1_drought_demand",
+        "outcome": "events",
+        "mean": 68.9524,
+        "sd": 43.70521878282828,
+        "ci_low": 17.0,
+        "ci_high": 166.0,
+        "n": 10000
+      },
+      {
+        "model": "M1_drought_demand",
+        "outcome": "apparent_success",
+        "mean": 0.6338581768743975,
+        "sd": 0.1768703205017548,
+        "ci_low": 0.3333333333333333,
+        "ci_high": 0.9565217391304348,
+        "n": 10000
+      },
+      {
+        "model": "M1_drought_demand",
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "sd": 0.0,
+        "ci_low": 3.0,
+        "ci_high": 3.0,
+        "n": 10000
+      },
+      {
+        "model": "M1_drought_demand",
+        "outcome": "price_success_difference",
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n": 9860
+      },
+      {
+        "model": "M1_drought_demand",
+        "outcome": "provider_price_dispersion",
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n": 10000
+      },
+      {
+        "model": "M1_drought_demand",
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n": 10000
+      },
+      {
+        "model": "M1_drought_demand",
+        "outcome": "provider_revenue",
+        "mean": 206.8572,
+        "sd": 131.1156563484848,
+        "ci_low": 51.0,
+        "ci_high": 498.0,
+        "n": 10000
+      },
+      {
+        "model": "M1_drought_demand",
+        "outcome": "community_expenditure",
+        "mean": 206.8572,
+        "sd": 131.1156563484848,
+        "ci_low": 51.0,
+        "ci_high": 498.0,
+        "n": 10000
+      },
+      {
+        "model": "M1_drought_demand",
+        "outcome": "provider_resource_cost",
+        "mean": 34.4762,
+        "sd": 21.852609391414138,
+        "ci_low": 8.5,
+        "ci_high": 83.0,
+        "n": 10000
+      },
+      {
+        "model": "M1_drought_demand",
+        "outcome": "provider_profit",
+        "mean": 172.381,
+        "sd": 109.2630469570707,
+        "ci_low": 42.5,
+        "ci_high": 415.0,
+        "n": 10000
+      },
+      {
+        "model": "M1_drought_demand",
+        "outcome": "community_material_social_utility",
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n": 10000
+      },
+      {
+        "model": "M1_drought_demand",
+        "outcome": "total_social_surplus",
+        "mean": 172.381,
+        "sd": 109.2630469570707,
+        "ci_low": 42.5,
+        "ci_high": 415.0,
+        "n": 10000
+      },
+      {
+        "model": "M1_drought_demand",
+        "outcome": "provider_revenue_dispersion",
+        "mean": 9.430097768254951,
+        "sd": 5.215528617027088,
+        "ci_low": 2.48746859276655,
+        "ci_high": 22.487496525847423,
+        "n": 10000
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "outcome": "events",
+        "mean": 68.9777,
+        "sd": 43.65960396993863,
+        "ci_low": 17.0,
+        "ci_high": 166.0,
+        "n": 10000
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "outcome": "apparent_success",
+        "mean": 0.4934326911269537,
+        "sd": 0.2813713682473743,
+        "ci_low": 0.0822784810126582,
+        "ci_high": 0.96,
+        "n": 10000
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "sd": 0.0,
+        "ci_low": 3.0,
+        "ci_high": 3.0,
+        "n": 10000
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "outcome": "price_success_difference",
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n": 9826
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "outcome": "provider_price_dispersion",
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n": 10000
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n": 10000
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "outcome": "provider_revenue",
+        "mean": 206.9331,
+        "sd": 130.9788119098159,
+        "ci_low": 51.0,
+        "ci_high": 498.0,
+        "n": 10000
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "outcome": "community_expenditure",
+        "mean": 206.9331,
+        "sd": 130.9788119098159,
+        "ci_low": 51.0,
+        "ci_high": 498.0,
+        "n": 10000
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "outcome": "provider_resource_cost",
+        "mean": 34.48885,
+        "sd": 21.829801984969315,
+        "ci_low": 8.5,
+        "ci_high": 83.0,
+        "n": 10000
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "outcome": "provider_profit",
+        "mean": 172.44425,
+        "sd": 109.14900992484658,
+        "ci_low": 42.5,
+        "ci_high": 415.0,
+        "n": 10000
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "outcome": "community_material_social_utility",
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n": 10000
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "outcome": "total_social_surplus",
+        "mean": 172.44425,
+        "sd": 109.14900992484658,
+        "ci_low": 42.5,
+        "ci_high": 415.0,
+        "n": 10000
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "outcome": "provider_revenue_dispersion",
+        "mean": 9.53729717508285,
+        "sd": 5.235163277072691,
+        "ci_low": 2.48746859276655,
+        "ci_high": 22.38721733489895,
+        "n": 10000
+      },
+      {
+        "model": "M3_strategic_selection",
+        "outcome": "events",
+        "mean": 16.9166,
+        "sd": 5.774615057119028,
+        "ci_low": 8.0,
+        "ci_high": 30.0,
+        "n": 10000
+      },
+      {
+        "model": "M3_strategic_selection",
+        "outcome": "apparent_success",
+        "mean": 0.6759514023183911,
+        "sd": 0.1923241431958884,
+        "ci_low": 0.2857142857142857,
+        "ci_high": 1.0,
+        "n": 10000
+      },
+      {
+        "model": "M3_strategic_selection",
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "sd": 0.0,
+        "ci_low": 3.0,
+        "ci_high": 3.0,
+        "n": 10000
+      },
+      {
+        "model": "M3_strategic_selection",
+        "outcome": "price_success_difference",
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n": 9514
+      },
+      {
+        "model": "M3_strategic_selection",
+        "outcome": "provider_price_dispersion",
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n": 9997
+      },
+      {
+        "model": "M3_strategic_selection",
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n": 10000
+      },
+      {
+        "model": "M3_strategic_selection",
+        "outcome": "provider_revenue",
+        "mean": 50.7498,
+        "sd": 17.323845171357082,
+        "ci_low": 24.0,
+        "ci_high": 90.0,
+        "n": 10000
+      },
+      {
+        "model": "M3_strategic_selection",
+        "outcome": "community_expenditure",
+        "mean": 50.7498,
+        "sd": 17.323845171357082,
+        "ci_low": 24.0,
+        "ci_high": 90.0,
+        "n": 10000
+      },
+      {
+        "model": "M3_strategic_selection",
+        "outcome": "provider_resource_cost",
+        "mean": 8.4583,
+        "sd": 2.887307528559514,
+        "ci_low": 4.0,
+        "ci_high": 15.0,
+        "n": 10000
+      },
+      {
+        "model": "M3_strategic_selection",
+        "outcome": "provider_profit",
+        "mean": 42.2915,
+        "sd": 14.436537642797568,
+        "ci_low": 20.0,
+        "ci_high": 75.0,
+        "n": 10000
+      },
+      {
+        "model": "M3_strategic_selection",
+        "outcome": "community_material_social_utility",
+        "mean": 0.0,
+        "sd": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n": 10000
+      },
+      {
+        "model": "M3_strategic_selection",
+        "outcome": "total_social_surplus",
+        "mean": 42.2915,
+        "sd": 14.436537642797568,
+        "ci_low": 20.0,
+        "ci_high": 75.0,
+        "n": 10000
+      },
+      {
+        "model": "M3_strategic_selection",
+        "outcome": "provider_revenue_dispersion",
+        "mean": 5.523337838234466,
+        "sd": 2.526576732206205,
+        "ci_low": 1.5,
+        "ci_high": 11.299889379989525,
+        "n": 10000
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "outcome": "events",
+        "mean": 16.9456,
+        "sd": 5.751760505696624,
+        "ci_low": 7.0,
+        "ci_high": 30.0,
+        "n": 10000
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "outcome": "apparent_success",
+        "mean": 0.6737303882905649,
+        "sd": 0.1933081967438052,
+        "ci_low": 0.2758620689655172,
+        "ci_high": 1.0,
+        "n": 9999
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "outcome": "mean_price",
+        "mean": 3.567958443832158,
+        "sd": 1.2010189094880863,
+        "ci_low": 2.1420266731064115,
+        "ci_high": 6.199978555342605,
+        "n": 9999
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "outcome": "price_success_difference",
+        "mean": -2.4471697004493125,
+        "sd": 2.9867865765862445,
+        "ci_low": -9.390503264721104,
+        "ci_high": 0.9335373672429654,
+        "n": 9531
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "outcome": "provider_price_dispersion",
+        "mean": 0.8871371958167442,
+        "sd": 0.7298997812512938,
+        "ci_low": 0.0431418322774562,
+        "ci_high": 2.6078327960749608,
+        "n": 9999
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "outcome": "reputation_dispersion",
+        "mean": 0.1167378292204624,
+        "sd": 0.0510404650048693,
+        "ci_low": 0.0309294787065871,
+        "ci_high": 0.2245486893343813,
+        "n": 10000
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "outcome": "provider_revenue",
+        "mean": 58.89077651685765,
+        "sd": 24.7029379086416,
+        "ci_low": 23.102048210294,
+        "ci_high": 117.30865947983246,
+        "n": 10000
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "outcome": "community_expenditure",
+        "mean": 58.89077651685765,
+        "sd": 24.7029379086416,
+        "ci_low": 23.102048210294,
+        "ci_high": 117.30865947983246,
+        "n": 10000
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "outcome": "provider_resource_cost",
+        "mean": 8.4728,
+        "sd": 2.875880252848312,
+        "ci_low": 3.5,
+        "ci_high": 15.0,
+        "n": 10000
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "outcome": "provider_profit",
+        "mean": 50.41797651685764,
+        "sd": 22.98646397049044,
+        "ci_low": 18.510146985273938,
+        "ci_high": 105.07616798870347,
+        "n": 10000
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "outcome": "community_material_social_utility",
+        "mean": -8.053976516857652,
+        "sd": 19.16272594049724,
+        "ci_low": -48.48844201632304,
+        "ci_high": 19.543586965718166,
+        "n": 10000
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "outcome": "total_social_surplus",
+        "mean": 42.364,
+        "sd": 14.379401264241562,
+        "ci_low": 17.5,
+        "ci_high": 75.0,
+        "n": 10000
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "outcome": "provider_revenue_dispersion",
+        "mean": 7.6806740104126,
+        "sd": 4.440788414289366,
+        "ci_low": 1.7614952878637076,
+        "ci_high": 18.635727087668798,
+        "n": 10000
+      },
+      {
+        "model": "M5_selective_recency",
+        "outcome": "events",
+        "mean": 16.8822,
+        "sd": 5.7751414169558295,
+        "ci_low": 7.0,
+        "ci_high": 30.0,
+        "n": 10000
+      },
+      {
+        "model": "M5_selective_recency",
+        "outcome": "apparent_success",
+        "mean": 0.673375582797228,
+        "sd": 0.1939776813470445,
+        "ci_low": 0.2727272727272727,
+        "ci_high": 1.0,
+        "n": 10000
+      },
+      {
+        "model": "M5_selective_recency",
+        "outcome": "mean_price",
+        "mean": 4.610214767818855,
+        "sd": 1.4058975840922103,
+        "ci_low": 2.516434773833345,
+        "ci_high": 7.645234085314785,
+        "n": 10000
+      },
+      {
+        "model": "M5_selective_recency",
+        "outcome": "price_success_difference",
+        "mean": -3.036906032743648,
+        "sd": 3.8462714543048095,
+        "ci_low": -11.964358924658914,
+        "ci_high": 2.054913113559482,
+        "n": 9539
+      },
+      {
+        "model": "M5_selective_recency",
+        "outcome": "provider_price_dispersion",
+        "mean": 1.3729622885080048,
+        "sd": 0.8059936938486125,
+        "ci_low": 0.2015675317740326,
+        "ci_high": 3.131430089289616,
+        "n": 9998
+      },
+      {
+        "model": "M5_selective_recency",
+        "outcome": "reputation_dispersion",
+        "mean": 0.1381941193173202,
+        "sd": 0.0964124567232154,
+        "ci_low": 0.0073524254678808,
+        "ci_high": 0.3284207931676761,
+        "n": 10000
+      },
+      {
+        "model": "M5_selective_recency",
+        "outcome": "provider_revenue",
+        "mean": 77.16299011666402,
+        "sd": 33.91215011222326,
+        "ci_low": 26.132560587193577,
+        "ci_high": 157.77226037581912,
+        "n": 10000
+      },
+      {
+        "model": "M5_selective_recency",
+        "outcome": "community_expenditure",
+        "mean": 77.16299011666402,
+        "sd": 33.91215011222326,
+        "ci_low": 26.132560587193577,
+        "ci_high": 157.77226037581912,
+        "n": 10000
+      },
+      {
+        "model": "M5_selective_recency",
+        "outcome": "provider_resource_cost",
+        "mean": 8.4411,
+        "sd": 2.8875707084779147,
+        "ci_low": 3.5,
+        "ci_high": 15.0,
+        "n": 10000
+      },
+      {
+        "model": "M5_selective_recency",
+        "outcome": "provider_profit",
+        "mean": 68.72189011666403,
+        "sd": 31.887124545113025,
+        "ci_low": 21.687500906066617,
+        "ci_high": 144.83576803219168,
+        "n": 10000
+      },
+      {
+        "model": "M5_selective_recency",
+        "outcome": "community_material_social_utility",
+        "mean": -26.516390116664024,
+        "sd": 24.5092754331348,
+        "ci_low": -83.27004765600871,
+        "ci_high": 7.2594612643028675,
+        "n": 10000
+      },
+      {
+        "model": "M5_selective_recency",
+        "outcome": "total_social_surplus",
+        "mean": 42.2055,
+        "sd": 14.437853542389574,
+        "ci_low": 17.5,
+        "ci_high": 75.0,
+        "n": 10000
+      },
+      {
+        "model": "M5_selective_recency",
+        "outcome": "provider_revenue_dispersion",
+        "mean": 11.494024186934377,
+        "sd": 6.710733390781088,
+        "ci_low": 2.498261163172594,
+        "ci_high": 27.97426483409425,
+        "n": 10000
+      }
+    ],
+    "sensitivity": [
+      {
+        "scenario": "M3_selection_slope_2",
+        "outcome": "events",
+        "mean": 16.448,
+        "ci_low": 6.0,
+        "ci_high": 33.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M3_selection_slope_2",
+        "outcome": "apparent_success",
+        "mean": 0.5638033502597437,
+        "ci_low": 0.125,
+        "ci_high": 1.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M3_selection_slope_2",
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "ci_low": 3.0,
+        "ci_high": 3.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M3_selection_slope_2",
+        "outcome": "price_success_difference",
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n": 1847
+      },
+      {
+        "scenario": "M3_selection_slope_2",
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M3_selection_slope_2",
+        "outcome": "provider_revenue",
+        "mean": 49.344,
+        "ci_low": 18.0,
+        "ci_high": 99.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M3_selection_slope_5",
+        "outcome": "events",
+        "mean": 16.914,
+        "ci_low": 8.0,
+        "ci_high": 30.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M3_selection_slope_5",
+        "outcome": "apparent_success",
+        "mean": 0.6800023612120983,
+        "ci_low": 0.2857142857142857,
+        "ci_high": 1.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M3_selection_slope_5",
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "ci_low": 3.0,
+        "ci_high": 3.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M3_selection_slope_5",
+        "outcome": "price_success_difference",
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n": 1904
+      },
+      {
+        "scenario": "M3_selection_slope_5",
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M3_selection_slope_5",
+        "outcome": "provider_revenue",
+        "mean": 50.742,
+        "ci_low": 24.0,
+        "ci_high": 90.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M3_selection_slope_8",
+        "outcome": "events",
+        "mean": 18.3215,
+        "ci_low": 6.0,
+        "ci_high": 34.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M3_selection_slope_8",
+        "outcome": "apparent_success",
+        "mean": 0.745866432826768,
+        "ci_low": 0.3749107142857142,
+        "ci_high": 1.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M3_selection_slope_8",
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "ci_low": 3.0,
+        "ci_high": 3.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M3_selection_slope_8",
+        "outcome": "price_success_difference",
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n": 1885
+      },
+      {
+        "scenario": "M3_selection_slope_8",
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M3_selection_slope_8",
+        "outcome": "provider_revenue",
+        "mean": 54.9645,
+        "ci_low": 18.0,
+        "ci_high": 102.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M4_prior_mean_0.25",
+        "outcome": "events",
+        "mean": 16.9175,
+        "ci_low": 7.0,
+        "ci_high": 30.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M4_prior_mean_0.25",
+        "outcome": "apparent_success",
+        "mean": 0.6773564562335268,
+        "ci_low": 0.2727272727272727,
+        "ci_high": 1.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M4_prior_mean_0.25",
+        "outcome": "mean_price",
+        "mean": 2.937133763611267,
+        "ci_low": 2.078238812356843,
+        "ci_high": 4.637339628542592,
+        "n": 2000
+      },
+      {
+        "scenario": "M4_prior_mean_0.25",
+        "outcome": "price_success_difference",
+        "mean": -1.4996466943866755,
+        "ci_low": -6.917563841673051,
+        "ci_high": 0.6447224297076872,
+        "n": 1911
+      },
+      {
+        "scenario": "M4_prior_mean_0.25",
+        "outcome": "reputation_dispersion",
+        "mean": 0.1245802526147891,
+        "ci_low": 0.0360843918243516,
+        "ci_high": 0.2393872826689713,
+        "n": 2000
+      },
+      {
+        "scenario": "M4_prior_mean_0.25",
+        "outcome": "provider_revenue",
+        "mean": 49.04317359371843,
+        "ci_low": 18.77051292456367,
+        "ci_high": 96.78789580826552,
+        "n": 2000
+      },
+      {
+        "scenario": "M4_prior_mean_0.50",
+        "outcome": "events",
+        "mean": 16.8155,
+        "ci_low": 7.0,
+        "ci_high": 30.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M4_prior_mean_0.50",
+        "outcome": "apparent_success",
+        "mean": 0.6812404792039054,
+        "ci_low": 0.2776515151515151,
+        "ci_high": 1.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M4_prior_mean_0.50",
+        "outcome": "mean_price",
+        "mean": 3.575461966255442,
+        "ci_low": 2.1252730683266114,
+        "ci_high": 6.171387279198486,
+        "n": 2000
+      },
+      {
+        "scenario": "M4_prior_mean_0.50",
+        "outcome": "price_success_difference",
+        "mean": -2.552836717898649,
+        "ci_low": -9.66527506816781,
+        "ci_high": 0.9311368195326668,
+        "n": 1899
+      },
+      {
+        "scenario": "M4_prior_mean_0.50",
+        "outcome": "reputation_dispersion",
+        "mean": 0.1148597950757844,
+        "ci_low": 0.0309256028076551,
+        "ci_high": 0.2241349193741266,
+        "n": 2000
+      },
+      {
+        "scenario": "M4_prior_mean_0.50",
+        "outcome": "provider_revenue",
+        "mean": 58.20985349091186,
+        "ci_low": 23.035764668903944,
+        "ci_high": 115.4651136569377,
+        "n": 2000
+      },
+      {
+        "scenario": "M4_prior_mean_0.75",
+        "outcome": "events",
+        "mean": 16.929,
+        "ci_low": 8.0,
+        "ci_high": 30.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M4_prior_mean_0.75",
+        "outcome": "apparent_success",
+        "mean": 0.6811214081564062,
+        "ci_low": 0.2727272727272727,
+        "ci_high": 1.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M4_prior_mean_0.75",
+        "outcome": "mean_price",
+        "mean": 4.643280222368793,
+        "ci_low": 2.259437702170906,
+        "ci_high": 8.35297844408463,
+        "n": 2000
+      },
+      {
+        "scenario": "M4_prior_mean_0.75",
+        "outcome": "price_success_difference",
+        "mean": -3.7605668477118086,
+        "ci_low": -11.988536575721822,
+        "ci_high": 1.256257425543541,
+        "n": 1893
+      },
+      {
+        "scenario": "M4_prior_mean_0.75",
+        "outcome": "reputation_dispersion",
+        "mean": 0.1139075093130339,
+        "ci_low": 0.0221591669776585,
+        "ci_high": 0.2226549297632651,
+        "n": 2000
+      },
+      {
+        "scenario": "M4_prior_mean_0.75",
+        "outcome": "provider_revenue",
+        "mean": 74.88714793675386,
+        "ci_low": 29.12040791793465,
+        "ci_high": 144.44922807110322,
+        "n": 2000
+      },
+      {
+        "scenario": "M5_balanced_memory",
+        "outcome": "events",
+        "mean": 16.761,
+        "ci_low": 7.0,
+        "ci_high": 29.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M5_balanced_memory",
+        "outcome": "apparent_success",
+        "mean": 0.6783480586267631,
+        "ci_low": 0.2666666666666666,
+        "ci_high": 1.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M5_balanced_memory",
+        "outcome": "mean_price",
+        "mean": 3.884573357011686,
+        "ci_low": 2.3070616337000094,
+        "ci_high": 6.491959332845075,
+        "n": 2000
+      },
+      {
+        "scenario": "M5_balanced_memory",
+        "outcome": "price_success_difference",
+        "mean": -2.736261025668413,
+        "ci_low": -10.893254332939003,
+        "ci_high": 1.423843417686041,
+        "n": 1907
+      },
+      {
+        "scenario": "M5_balanced_memory",
+        "outcome": "reputation_dispersion",
+        "mean": 0.1744044585731398,
+        "ci_low": 0.0245031844595916,
+        "ci_high": 0.3457035820531121,
+        "n": 2000
+      },
+      {
+        "scenario": "M5_balanced_memory",
+        "outcome": "provider_revenue",
+        "mean": 63.776932949666815,
+        "ci_low": 23.15566361945309,
+        "ci_high": 125.2453636122694,
+        "n": 2000
+      },
+      {
+        "scenario": "M5_base_memory",
+        "outcome": "events",
+        "mean": 16.795,
+        "ci_low": 7.0,
+        "ci_high": 30.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M5_base_memory",
+        "outcome": "apparent_success",
+        "mean": 0.6807868980804274,
+        "ci_low": 0.3076923076923077,
+        "ci_high": 1.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M5_base_memory",
+        "outcome": "mean_price",
+        "mean": 4.623092471337506,
+        "ci_low": 2.5435771930691584,
+        "ci_high": 7.671782895170045,
+        "n": 2000
+      },
+      {
+        "scenario": "M5_base_memory",
+        "outcome": "price_success_difference",
+        "mean": -3.192288593404272,
+        "ci_low": -12.156995589236136,
+        "ci_high": 1.9551076876815336,
+        "n": 1883
+      },
+      {
+        "scenario": "M5_base_memory",
+        "outcome": "reputation_dispersion",
+        "mean": 0.1378155501500838,
+        "ci_low": 0.006483030169064,
+        "ci_high": 0.3324651530948969,
+        "n": 2000
+      },
+      {
+        "scenario": "M5_base_memory",
+        "outcome": "provider_revenue",
+        "mean": 76.96559116111696,
+        "ci_low": 26.17134975378292,
+        "ci_high": 164.17372622741053,
+        "n": 2000
+      },
+      {
+        "scenario": "M5_strong_selective_memory",
+        "outcome": "events",
+        "mean": 16.9585,
+        "ci_low": 7.0,
+        "ci_high": 29.024999999999864,
+        "n": 2000
+      },
+      {
+        "scenario": "M5_strong_selective_memory",
+        "outcome": "apparent_success",
+        "mean": 0.6807932339485212,
+        "ci_low": 0.2857142857142857,
+        "ci_high": 1.0,
+        "n": 2000
+      },
+      {
+        "scenario": "M5_strong_selective_memory",
+        "outcome": "mean_price",
+        "mean": 5.1971120778249125,
+        "ci_low": 2.721198078229623,
+        "ci_high": 8.731014659523849,
+        "n": 2000
+      },
+      {
+        "scenario": "M5_strong_selective_memory",
+        "outcome": "price_success_difference",
+        "mean": -3.392392212802388,
+        "ci_low": -12.468969565035088,
+        "ci_high": 2.262589905425735,
+        "n": 1904
+      },
+      {
+        "scenario": "M5_strong_selective_memory",
+        "outcome": "reputation_dispersion",
+        "mean": 0.1025133393270346,
+        "ci_low": 0.0019590875805814,
+        "ci_high": 0.2860941573122431,
+        "n": 2000
+      },
+      {
+        "scenario": "M5_strong_selective_memory",
+        "outcome": "provider_revenue",
+        "mean": 87.6432157005835,
+        "ci_low": 29.021100609768208,
+        "ci_high": 186.75563784023916,
+        "n": 2000
+      }
+    ],
+    "convergence": [
+      {
+        "model": "M0_random_timing",
+        "sample_size": 500,
+        "outcome": "apparent_success",
+        "mean": 0.6309376776254895,
+        "monte_carlo_se": 0.0083137719217575
+      },
+      {
+        "model": "M0_random_timing",
+        "sample_size": 500,
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M0_random_timing",
+        "sample_size": 500,
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M0_random_timing",
+        "sample_size": 1000,
+        "outcome": "apparent_success",
+        "mean": 0.6333079671678283,
+        "monte_carlo_se": 0.0059124284438477
+      },
+      {
+        "model": "M0_random_timing",
+        "sample_size": 1000,
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M0_random_timing",
+        "sample_size": 1000,
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M0_random_timing",
+        "sample_size": 2500,
+        "outcome": "apparent_success",
+        "mean": 0.6334439619368273,
+        "monte_carlo_se": 0.0038308145054064
+      },
+      {
+        "model": "M0_random_timing",
+        "sample_size": 2500,
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M0_random_timing",
+        "sample_size": 2500,
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M0_random_timing",
+        "sample_size": 5000,
+        "outcome": "apparent_success",
+        "mean": 0.6344658734931031,
+        "monte_carlo_se": 0.0027157811304342
+      },
+      {
+        "model": "M0_random_timing",
+        "sample_size": 5000,
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M0_random_timing",
+        "sample_size": 5000,
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M0_random_timing",
+        "sample_size": 10000,
+        "outcome": "apparent_success",
+        "mean": 0.6345240240024738,
+        "monte_carlo_se": 0.0019102168202764
+      },
+      {
+        "model": "M0_random_timing",
+        "sample_size": 10000,
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M0_random_timing",
+        "sample_size": 10000,
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M1_drought_demand",
+        "sample_size": 500,
+        "outcome": "apparent_success",
+        "mean": 0.6311905272497437,
+        "monte_carlo_se": 0.0078867403849156
+      },
+      {
+        "model": "M1_drought_demand",
+        "sample_size": 500,
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M1_drought_demand",
+        "sample_size": 500,
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M1_drought_demand",
+        "sample_size": 1000,
+        "outcome": "apparent_success",
+        "mean": 0.6330967811829367,
+        "monte_carlo_se": 0.0055254112392677
+      },
+      {
+        "model": "M1_drought_demand",
+        "sample_size": 1000,
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M1_drought_demand",
+        "sample_size": 1000,
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M1_drought_demand",
+        "sample_size": 2500,
+        "outcome": "apparent_success",
+        "mean": 0.6356304359319239,
+        "monte_carlo_se": 0.0035606372977989
+      },
+      {
+        "model": "M1_drought_demand",
+        "sample_size": 2500,
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M1_drought_demand",
+        "sample_size": 2500,
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M1_drought_demand",
+        "sample_size": 5000,
+        "outcome": "apparent_success",
+        "mean": 0.6352245670114909,
+        "monte_carlo_se": 0.0025183805546325
+      },
+      {
+        "model": "M1_drought_demand",
+        "sample_size": 5000,
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M1_drought_demand",
+        "sample_size": 5000,
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M1_drought_demand",
+        "sample_size": 10000,
+        "outcome": "apparent_success",
+        "mean": 0.6338581768743975,
+        "monte_carlo_se": 0.0017687032050175
+      },
+      {
+        "model": "M1_drought_demand",
+        "sample_size": 10000,
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M1_drought_demand",
+        "sample_size": 10000,
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "sample_size": 500,
+        "outcome": "apparent_success",
+        "mean": 0.4937073170394196,
+        "monte_carlo_se": 0.0127390497802993
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "sample_size": 500,
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "sample_size": 500,
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "sample_size": 1000,
+        "outcome": "apparent_success",
+        "mean": 0.4954419263053066,
+        "monte_carlo_se": 0.0089288505040402
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "sample_size": 1000,
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "sample_size": 1000,
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "sample_size": 2500,
+        "outcome": "apparent_success",
+        "mean": 0.4990317397591685,
+        "monte_carlo_se": 0.005675169024208
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "sample_size": 2500,
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "sample_size": 2500,
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "sample_size": 5000,
+        "outcome": "apparent_success",
+        "mean": 0.4961104885097564,
+        "monte_carlo_se": 0.0040045158876185
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "sample_size": 5000,
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "sample_size": 5000,
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "sample_size": 10000,
+        "outcome": "apparent_success",
+        "mean": 0.4934326911269537,
+        "monte_carlo_se": 0.0028137136824737
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "sample_size": 10000,
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M2_realistic_hazard",
+        "sample_size": 10000,
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M3_strategic_selection",
+        "sample_size": 500,
+        "outcome": "apparent_success",
+        "mean": 0.6702933601048341,
+        "monte_carlo_se": 0.0086229005088185
+      },
+      {
+        "model": "M3_strategic_selection",
+        "sample_size": 500,
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M3_strategic_selection",
+        "sample_size": 500,
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M3_strategic_selection",
+        "sample_size": 1000,
+        "outcome": "apparent_success",
+        "mean": 0.6720678546292842,
+        "monte_carlo_se": 0.0060275621191705
+      },
+      {
+        "model": "M3_strategic_selection",
+        "sample_size": 1000,
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M3_strategic_selection",
+        "sample_size": 1000,
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M3_strategic_selection",
+        "sample_size": 2500,
+        "outcome": "apparent_success",
+        "mean": 0.6739161031688786,
+        "monte_carlo_se": 0.0038710343839411
+      },
+      {
+        "model": "M3_strategic_selection",
+        "sample_size": 2500,
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M3_strategic_selection",
+        "sample_size": 2500,
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M3_strategic_selection",
+        "sample_size": 5000,
+        "outcome": "apparent_success",
+        "mean": 0.6769551043571816,
+        "monte_carlo_se": 0.002728042681456
+      },
+      {
+        "model": "M3_strategic_selection",
+        "sample_size": 5000,
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M3_strategic_selection",
+        "sample_size": 5000,
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M3_strategic_selection",
+        "sample_size": 10000,
+        "outcome": "apparent_success",
+        "mean": 0.6759514023183911,
+        "monte_carlo_se": 0.0019232414319588
+      },
+      {
+        "model": "M3_strategic_selection",
+        "sample_size": 10000,
+        "outcome": "mean_price",
+        "mean": 3.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M3_strategic_selection",
+        "sample_size": 10000,
+        "outcome": "reputation_dispersion",
+        "mean": 0.0,
+        "monte_carlo_se": 0.0
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "sample_size": 500,
+        "outcome": "apparent_success",
+        "mean": 0.6778618688637003,
+        "monte_carlo_se": 0.0085254971808378
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "sample_size": 500,
+        "outcome": "mean_price",
+        "mean": 3.620169071613312,
+        "monte_carlo_se": 0.0539632521679406
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "sample_size": 500,
+        "outcome": "reputation_dispersion",
+        "mean": 0.1167223044029017,
+        "monte_carlo_se": 0.0023097774105364
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "sample_size": 1000,
+        "outcome": "apparent_success",
+        "mean": 0.6723552200039619,
+        "monte_carlo_se": 0.0059263726077401
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "sample_size": 1000,
+        "outcome": "mean_price",
+        "mean": 3.5753595897611894,
+        "monte_carlo_se": 0.0380419185468774
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "sample_size": 1000,
+        "outcome": "reputation_dispersion",
+        "mean": 0.1187120150298999,
+        "monte_carlo_se": 0.0016407948166193
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "sample_size": 2500,
+        "outcome": "apparent_success",
+        "mean": 0.6719439736029347,
+        "monte_carlo_se": 0.0038106537555903
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "sample_size": 2500,
+        "outcome": "mean_price",
+        "mean": 3.542024635871075,
+        "monte_carlo_se": 0.0238152895650839
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "sample_size": 2500,
+        "outcome": "reputation_dispersion",
+        "mean": 0.1179896957515577,
+        "monte_carlo_se": 0.0010352759517231
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "sample_size": 5000,
+        "outcome": "apparent_success",
+        "mean": 0.6741998890416669,
+        "monte_carlo_se": 0.0027255106002579
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "sample_size": 5000,
+        "outcome": "mean_price",
+        "mean": 3.563500147877939,
+        "monte_carlo_se": 0.0170313647220003
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "sample_size": 5000,
+        "outcome": "reputation_dispersion",
+        "mean": 0.1167266070896348,
+        "monte_carlo_se": 0.0007179481654748
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "sample_size": 10000,
+        "outcome": "apparent_success",
+        "mean": 0.6737303882905649,
+        "monte_carlo_se": 0.001933178628786
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "sample_size": 10000,
+        "outcome": "mean_price",
+        "mean": 3.567958443832158,
+        "monte_carlo_se": 0.0120107896493775
+      },
+      {
+        "model": "M4_bayesian_reputation",
+        "sample_size": 10000,
+        "outcome": "reputation_dispersion",
+        "mean": 0.1167378292204623,
+        "monte_carlo_se": 0.0005104046500486
+      },
+      {
+        "model": "M5_selective_recency",
+        "sample_size": 500,
+        "outcome": "apparent_success",
+        "mean": 0.6772648809774969,
+        "monte_carlo_se": 0.0087082494981233
+      },
+      {
+        "model": "M5_selective_recency",
+        "sample_size": 500,
+        "outcome": "mean_price",
+        "mean": 4.6953925528615965,
+        "monte_carlo_se": 0.0624544821629301
+      },
+      {
+        "model": "M5_selective_recency",
+        "sample_size": 500,
+        "outcome": "reputation_dispersion",
+        "mean": 0.142881012748969,
+        "monte_carlo_se": 0.0043824768392565
+      },
+      {
+        "model": "M5_selective_recency",
+        "sample_size": 1000,
+        "outcome": "apparent_success",
+        "mean": 0.6696046480599301,
+        "monte_carlo_se": 0.0060836160191319
+      },
+      {
+        "model": "M5_selective_recency",
+        "sample_size": 1000,
+        "outcome": "mean_price",
+        "mean": 4.639174286513855,
+        "monte_carlo_se": 0.0437487541072659
+      },
+      {
+        "model": "M5_selective_recency",
+        "sample_size": 1000,
+        "outcome": "reputation_dispersion",
+        "mean": 0.1423507343975586,
+        "monte_carlo_se": 0.0030306046878034
+      },
+      {
+        "model": "M5_selective_recency",
+        "sample_size": 2500,
+        "outcome": "apparent_success",
+        "mean": 0.6746105232948901,
+        "monte_carlo_se": 0.0038731338906562
+      },
+      {
+        "model": "M5_selective_recency",
+        "sample_size": 2500,
+        "outcome": "mean_price",
+        "mean": 4.611901208299893,
+        "monte_carlo_se": 0.028043307711058
+      },
+      {
+        "model": "M5_selective_recency",
+        "sample_size": 2500,
+        "outcome": "reputation_dispersion",
+        "mean": 0.1389223307085078,
+        "monte_carlo_se": 0.0019215862838861
+      },
+      {
+        "model": "M5_selective_recency",
+        "sample_size": 5000,
+        "outcome": "apparent_success",
+        "mean": 0.6762086487585446,
+        "monte_carlo_se": 0.0027524904100575
+      },
+      {
+        "model": "M5_selective_recency",
+        "sample_size": 5000,
+        "outcome": "mean_price",
+        "mean": 4.6126616549103465,
+        "monte_carlo_se": 0.0198594504409722
+      },
+      {
+        "model": "M5_selective_recency",
+        "sample_size": 5000,
+        "outcome": "reputation_dispersion",
+        "mean": 0.138223686931846,
+        "monte_carlo_se": 0.0013712980595785
+      },
+      {
+        "model": "M5_selective_recency",
+        "sample_size": 10000,
+        "outcome": "apparent_success",
+        "mean": 0.673375582797228,
+        "monte_carlo_se": 0.0019397768134704
+      },
+      {
+        "model": "M5_selective_recency",
+        "sample_size": 10000,
+        "outcome": "mean_price",
+        "mean": 4.610214767818855,
+        "monte_carlo_se": 0.0140589758409221
+      },
+      {
+        "model": "M5_selective_recency",
+        "sample_size": 10000,
+        "outcome": "reputation_dispersion",
+        "mean": 0.1381941193173202,
+        "monte_carlo_se": 0.0009641245672321
+      }
+    ]
+  },
+  "empirical": {
+    "pseudo_events": [
+      {
+        "Selection rule": "30-day deficit threshold",
+        "Events": 294,
+        "Apparent_success_1d": 0.3741496598639456,
+        "Apparent_success_3d": 0.5918367346938775,
+        "Apparent_success_7d": 0.8231292517006803,
+        "Apparent_success_14d": 0.9217687074829932,
+        "Mean_scenario_WTP": 6.276038631936295
+      },
+      {
+        "Selection rule": "dry-spell threshold",
+        "Events": 727,
+        "Apparent_success_1d": 0.20907840440165062,
+        "Apparent_success_3d": 0.4016506189821183,
+        "Apparent_success_7d": 0.6011004126547456,
+        "Apparent_success_14d": 0.7647867950481431,
+        "Mean_scenario_WTP": 3.266879625612569
+      },
+      {
+        "Selection rule": "high prospective hazard",
+        "Events": 395,
+        "Apparent_success_1d": 0.4607594936708861,
+        "Apparent_success_3d": 0.6708860759493671,
+        "Apparent_success_7d": 0.8531645569620253,
+        "Apparent_success_14d": 0.9468354430379747,
+        "Mean_scenario_WTP": 6.814960958161576
+      },
+      {
+        "Selection rule": "random drought day",
+        "Events": 509,
+        "Apparent_success_1d": 0.1905697445972495,
+        "Apparent_success_3d": 0.381139489194499,
+        "Apparent_success_7d": 0.593320235756385,
+        "Apparent_success_14d": 0.7445972495088409,
+        "Mean_scenario_WTP": 3.0728347628377843
+      },
+      {
+        "Selection rule": "season-matched placebo",
+        "Events": 670,
+        "Apparent_success_1d": 0.24477611940298508,
+        "Apparent_success_3d": 0.40746268656716417,
+        "Apparent_success_7d": 0.6,
+        "Apparent_success_14d": 0.7925373134328358,
+        "Mean_scenario_WTP": 3.5496767384316423
+      }
+    ],
+    "price_models": [
+      {
+        "model": "naive",
+        "term": "scenario_wtp",
+        "coefficient": 0.123731496415375,
+        "standard_error": 0.0194982431309439,
+        "ci_low": 0.0855156421169194,
+        "ci_high": 0.1619473507138306,
+        "p_value": 2.21306080481426e-10,
+        "n": 2595
+      },
+      {
+        "model": "hazard-adjusted",
+        "term": "scenario_wtp",
+        "coefficient": 0.0360408194977451,
+        "standard_error": 0.0328129442519827,
+        "ci_low": -0.0282713694628616,
+        "ci_high": 0.1003530084583518,
+        "p_value": 0.2720420798695743,
+        "n": 2595
+      },
+      {
+        "model": "hazard-adjusted",
+        "term": "success_1mm_7d_mean",
+        "coefficient": 4.233530942468574,
+        "standard_error": 0.281104325222844,
+        "ci_low": 3.6825765891333657,
+        "ci_high": 4.784485295803783,
+        "p_value": 2.9519743966453527e-51,
+        "n": 2595
+      },
+      {
+        "model": "hazard-adjusted",
+        "term": "drought_severity",
+        "coefficient": -0.0673346613802843,
+        "standard_error": 0.1418521870627715,
+        "ci_low": -0.3453598391515552,
+        "ci_high": 0.2106905163909865,
+        "p_value": 0.6350137424551585,
+        "n": 2595
+      }
+    ],
+    "cluster_robust_price_model": [
+      {
+        "term": "scenario_wtp",
+        "coefficient": 0.0360408194977451,
+        "cluster_standard_error": 0.0382099504949094,
+        "ci_low": -0.0388493073233358,
+        "ci_high": 0.1109309463188261,
+        "p_value": 0.3455626306704683,
+        "clusters": 80,
+        "region_rule_clusters": 40,
+        "n": 2595
+      },
+      {
+        "term": "success_1mm_7d_mean",
+        "coefficient": 4.233530942468573,
+        "cluster_standard_error": 0.386287481728453,
+        "ci_low": 3.4764213906021317,
+        "ci_high": 4.990640494335016,
+        "p_value": 5.980626528707299e-28,
+        "clusters": 80,
+        "region_rule_clusters": 40,
+        "n": 2595
+      },
+      {
+        "term": "drought_severity",
+        "coefficient": -0.0673346613802844,
+        "cluster_standard_error": 0.1239208259826044,
+        "ci_low": -0.3102150172406445,
+        "ci_high": 0.1755456944800757,
+        "p_value": 0.5868761758514585,
+        "clusters": 80,
+        "region_rule_clusters": 40,
+        "n": 2595
+      }
+    ],
+    "permutation_falsification": [
+      {
+        "observed_adjusted_ols_coefficient": -0.0318938998658198,
+        "permutation_mean": -0.0001944682590606,
+        "permutation_sd": 0.0083135524191332,
+        "permutation_p_two_sided": 0.0019980019980019,
+        "permutations": 1000
+      }
+    ],
+    "threshold_window_sensitivity": [
+      {
+        "rule": "30-day deficit threshold",
+        "outcome": "success_0.1mm_1d",
+        "apparent_success": 0.5170068027210885
+      },
+      {
+        "rule": "dry-spell threshold",
+        "outcome": "success_0.1mm_1d",
+        "apparent_success": 0.3411279229711141
+      },
+      {
+        "rule": "high prospective hazard",
+        "outcome": "success_0.1mm_1d",
+        "apparent_success": 0.6303797468354431
+      },
+      {
+        "rule": "random drought day",
+        "outcome": "success_0.1mm_1d",
+        "apparent_success": 0.3634577603143418
+      },
+      {
+        "rule": "season-matched placebo",
+        "outcome": "success_0.1mm_1d",
+        "apparent_success": 0.4343283582089552
+      },
+      {
+        "rule": "30-day deficit threshold",
+        "outcome": "success_0.1mm_3d",
+        "apparent_success": 0.7380952380952381
+      },
+      {
+        "rule": "dry-spell threshold",
+        "outcome": "success_0.1mm_3d",
+        "apparent_success": 0.5859697386519945
+      },
+      {
+        "rule": "high prospective hazard",
+        "outcome": "success_0.1mm_3d",
+        "apparent_success": 0.8075949367088607
+      },
+      {
+        "rule": "random drought day",
+        "outcome": "success_0.1mm_3d",
+        "apparent_success": 0.5677799607072691
+      },
+      {
+        "rule": "season-matched placebo",
+        "outcome": "success_0.1mm_3d",
+        "apparent_success": 0.6268656716417911
+      },
+      {
+        "rule": "30-day deficit threshold",
+        "outcome": "success_0.1mm_7d",
+        "apparent_success": 0.8877551020408163
+      },
+      {
+        "rule": "dry-spell threshold",
+        "outcome": "success_0.1mm_7d",
+        "apparent_success": 0.7936726272352133
+      },
+      {
+        "rule": "high prospective hazard",
+        "outcome": "success_0.1mm_7d",
+        "apparent_success": 0.939240506329114
+      },
+      {
+        "rule": "random drought day",
+        "outcome": "success_0.1mm_7d",
+        "apparent_success": 0.7583497053045186
+      },
+      {
+        "rule": "season-matched placebo",
+        "outcome": "success_0.1mm_7d",
+        "apparent_success": 0.8074626865671641
+      },
+      {
+        "rule": "30-day deficit threshold",
+        "outcome": "success_0.1mm_14d",
+        "apparent_success": 0.9591836734693876
+      },
+      {
+        "rule": "dry-spell threshold",
+        "outcome": "success_0.1mm_14d",
+        "apparent_success": 0.8885832187070152
+      },
+      {
+        "rule": "high prospective hazard",
+        "outcome": "success_0.1mm_14d",
+        "apparent_success": 0.9772151898734176
+      },
+      {
+        "rule": "random drought day",
+        "outcome": "success_0.1mm_14d",
+        "apparent_success": 0.8722986247544204
+      },
+      {
+        "rule": "season-matched placebo",
+        "outcome": "success_0.1mm_14d",
+        "apparent_success": 0.9149253731343284
+      },
+      {
+        "rule": "30-day deficit threshold",
+        "outcome": "success_1mm_1d",
+        "apparent_success": 0.3741496598639456
+      },
+      {
+        "rule": "dry-spell threshold",
+        "outcome": "success_1mm_1d",
+        "apparent_success": 0.2090784044016506
+      },
+      {
+        "rule": "high prospective hazard",
+        "outcome": "success_1mm_1d",
+        "apparent_success": 0.4607594936708861
+      },
+      {
+        "rule": "random drought day",
+        "outcome": "success_1mm_1d",
+        "apparent_success": 0.1905697445972495
+      },
+      {
+        "rule": "season-matched placebo",
+        "outcome": "success_1mm_1d",
+        "apparent_success": 0.244776119402985
+      },
+      {
+        "rule": "30-day deficit threshold",
+        "outcome": "success_1mm_3d",
+        "apparent_success": 0.5918367346938775
+      },
+      {
+        "rule": "dry-spell threshold",
+        "outcome": "success_1mm_3d",
+        "apparent_success": 0.4016506189821183
+      },
+      {
+        "rule": "high prospective hazard",
+        "outcome": "success_1mm_3d",
+        "apparent_success": 0.6708860759493671
+      },
+      {
+        "rule": "random drought day",
+        "outcome": "success_1mm_3d",
+        "apparent_success": 0.381139489194499
+      },
+      {
+        "rule": "season-matched placebo",
+        "outcome": "success_1mm_3d",
+        "apparent_success": 0.4074626865671641
+      },
+      {
+        "rule": "30-day deficit threshold",
+        "outcome": "success_1mm_7d",
+        "apparent_success": 0.8231292517006803
+      },
+      {
+        "rule": "dry-spell threshold",
+        "outcome": "success_1mm_7d",
+        "apparent_success": 0.6011004126547456
+      },
+      {
+        "rule": "high prospective hazard",
+        "outcome": "success_1mm_7d",
+        "apparent_success": 0.8531645569620253
+      },
+      {
+        "rule": "random drought day",
+        "outcome": "success_1mm_7d",
+        "apparent_success": 0.593320235756385
+      },
+      {
+        "rule": "season-matched placebo",
+        "outcome": "success_1mm_7d",
+        "apparent_success": 0.6
+      },
+      {
+        "rule": "30-day deficit threshold",
+        "outcome": "success_1mm_14d",
+        "apparent_success": 0.9217687074829932
+      },
+      {
+        "rule": "dry-spell threshold",
+        "outcome": "success_1mm_14d",
+        "apparent_success": 0.7647867950481431
+      },
+      {
+        "rule": "high prospective hazard",
+        "outcome": "success_1mm_14d",
+        "apparent_success": 0.9468354430379748
+      },
+      {
+        "rule": "random drought day",
+        "outcome": "success_1mm_14d",
+        "apparent_success": 0.7445972495088409
+      },
+      {
+        "rule": "season-matched placebo",
+        "outcome": "success_1mm_14d",
+        "apparent_success": 0.7925373134328358
+      },
+      {
+        "rule": "30-day deficit threshold",
+        "outcome": "success_5mm_1d",
+        "apparent_success": 0.1836734693877551
+      },
+      {
+        "rule": "dry-spell threshold",
+        "outcome": "success_5mm_1d",
+        "apparent_success": 0.0784044016506189
+      },
+      {
+        "rule": "high prospective hazard",
+        "outcome": "success_5mm_1d",
+        "apparent_success": 0.2734177215189873
+      },
+      {
+        "rule": "random drought day",
+        "outcome": "success_5mm_1d",
+        "apparent_success": 0.1001964636542239
+      },
+      {
+        "rule": "season-matched placebo",
+        "outcome": "success_5mm_1d",
+        "apparent_success": 0.1149253731343283
+      },
+      {
+        "rule": "30-day deficit threshold",
+        "outcome": "success_5mm_3d",
+        "apparent_success": 0.3469387755102041
+      },
+      {
+        "rule": "dry-spell threshold",
+        "outcome": "success_5mm_3d",
+        "apparent_success": 0.1856946354883081
+      },
+      {
+        "rule": "high prospective hazard",
+        "outcome": "success_5mm_3d",
+        "apparent_success": 0.4455696202531645
+      },
+      {
+        "rule": "random drought day",
+        "outcome": "success_5mm_3d",
+        "apparent_success": 0.2043222003929273
+      },
+      {
+        "rule": "season-matched placebo",
+        "outcome": "success_5mm_3d",
+        "apparent_success": 0.2253731343283582
+      },
+      {
+        "rule": "30-day deficit threshold",
+        "outcome": "success_5mm_7d",
+        "apparent_success": 0.5816326530612245
+      },
+      {
+        "rule": "dry-spell threshold",
+        "outcome": "success_5mm_7d",
+        "apparent_success": 0.3383768913342503
+      },
+      {
+        "rule": "high prospective hazard",
+        "outcome": "success_5mm_7d",
+        "apparent_success": 0.6481012658227848
+      },
+      {
+        "rule": "random drought day",
+        "outcome": "success_5mm_7d",
+        "apparent_success": 0.37524557956778
+      },
+      {
+        "rule": "season-matched placebo",
+        "outcome": "success_5mm_7d",
+        "apparent_success": 0.3537313432835821
+      },
+      {
+        "rule": "30-day deficit threshold",
+        "outcome": "success_5mm_14d",
+        "apparent_success": 0.7312925170068028
+      },
+      {
+        "rule": "dry-spell threshold",
+        "outcome": "success_5mm_14d",
+        "apparent_success": 0.5116918844566712
+      },
+      {
+        "rule": "high prospective hazard",
+        "outcome": "success_5mm_14d",
+        "apparent_success": 0.810126582278481
+      },
+      {
+        "rule": "random drought day",
+        "outcome": "success_5mm_14d",
+        "apparent_success": 0.5363457760314342
+      },
+      {
+        "rule": "season-matched placebo",
+        "outcome": "success_5mm_14d",
+        "apparent_success": 0.5164179104477612
+      }
+    ]
+  },
+  "hypotheses": [
+    {
+      "hypothesis": "Natural rainfall can generate substantial apparent success under zero efficacy",
+      "classification": "demonstrated with observed weather",
+      "basis": "Observed-weather pseudo-events and all simulation models"
+    },
+    {
+      "hypothesis": "Drought-driven demand increases intervention frequency",
+      "classification": "demonstrated in model",
+      "basis": "M1 versus M0 under the specified demand function"
+    },
+    {
+      "hypothesis": "Drought can increase scenario WTP",
+      "classification": "demonstrated in calibrated scenario",
+      "basis": "Calibrated rainfall-loss term raises WTP over intermediate drought severity but is offset at extremes by ability to pay"
+    },
+    {
+      "hypothesis": "Strategic provider selection increases apparent success",
+      "classification": "demonstrated in model using observed weather",
+      "basis": "M3 versus M2 and selection-slope sensitivity"
+    },
+    {
+      "hypothesis": "Higher prices are positively associated with apparent success",
+      "classification": "not supported",
+      "basis": "Two-way clustered logit interval includes zero; within-stratum permutation estimate and M4-M5 differences are negative"
+    },
+    {
+      "hypothesis": "Reputation learning creates persistent provider differentiation",
+      "classification": "demonstrated in model",
+      "basis": "M4-M5 reputation dispersion under specified update rules"
+    },
+    {
+      "hypothesis": "Selective and recency-weighted memory raises price premia",
+      "classification": "demonstrated in model",
+      "basis": "M5 versus M4 and memory sensitivity"
+    },
+    {
+      "hypothesis": "Zero meteorological efficacy implies zero social value",
+      "classification": "logical distinction; not empirically tested",
+      "basis": "Positive social utility is modeled separately from causal rainfall benefit"
+    }
+  ],
+  "figure_captions": {
+    "Figure 1": "Conceptual framework. Environmental hazard enters demand, provider selection, valuation, attribution, and reputation, while ritual never changes rainfall.",
+    "Figure 2": "Estimated seven-day rainfall hazards by preceding dry-spell duration and location in the 1991–2010 training period. The eight locations are pre-specified mechanism stress tests, not a representative global sample.",
+    "Figure 3": "Natural rainfall following fictional zero-effect pseudo-events in 2011–2020, shown as apparent success by prospective event-selection rule.",
+    "Figure 4": "Sequential Monte Carlo model enrichment under M0–M5. M0–M1 shuffle rainfall outcomes within sampled years; M2–M5 retain observed local and seasonal ordering. Strategic selection changes accepted-event composition and current apparent success. In M4–M5, past attributed outcomes accumulate in reputation stocks that create price premia and provider-price heterogeneity, while current success remains a natural-rainfall flow governed by current hazard. Mean price(success) minus price(failure) is negative in M4–M5. Error bars are 2.5th and 97.5th Monte Carlo percentiles, not confidence intervals for historical parameters.",
+    "Figure 5": "Robustness. Apparent success across rainfall thresholds and windows, selected parameter sensitivity, and Monte Carlo precision."
+  }
+}

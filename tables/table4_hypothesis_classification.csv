@@ -1,0 +1,9 @@
+Hypothesis,Classification,Basis
+Natural rainfall can generate substantial apparent success under zero efficacy,demonstrated with observed weather,Observed-weather pseudo-events and all simulation models
+Drought-driven demand increases intervention frequency,demonstrated in model,M1 versus M0 under the specified demand function
+Drought can increase scenario WTP,demonstrated in calibrated scenario,Calibrated rainfall-loss term raises WTP over intermediate drought severity but is offset at extremes by ability to pay
+Strategic provider selection increases apparent success,demonstrated in model using observed weather,M3 versus M2 and selection-slope sensitivity
+Higher prices are positively associated with apparent success,not supported,Two-way clustered logit interval includes zero; within-stratum permutation estimate and M4-M5 differences are negative
+Reputation learning creates persistent provider differentiation,demonstrated in model,M4-M5 reputation dispersion under specified update rules
+Selective and recency-weighted memory raises price premia,demonstrated in model,M5 versus M4 and memory sensitivity
+Zero meteorological efficacy implies zero social value,logical distinction; not empirically tested,Positive social utility is modeled separately from causal rainfall benefit

@@ -1,0 +1,57 @@
+references:
+  - doi: 10.1093/qje/qjag026
+    role: closest prior work on rainfall hazard and persuasive prayer
+  - doi: 10.3386/w31411
+    role: open working-paper version of closest prior work
+  - doi: 10.5751/ES-12875-270209
+    role: historical Murcia rain-prayer context
+  - doi: 10.14989/68028
+    role: ethnographic rainmaking descriptions in Kenya
+  - doi: 10.4102/hts.v69i1.1175
+    role: Pedi rainmaking practice and stated provider price
+  - doi: 10.1016/j.ecolecon.2011.11.011
+    role: cultural values in ecosystem-service analysis
+  - doi: 10.1016/j.ecolecon.2015.01.006
+    role: shared and social values of ecosystems
+  - doi: 10.1016/j.ecolecon.2013.07.004
+    role: excluded after metadata audit; capability approach article did not match intended role
+  - doi: 10.1016/j.ecolecon.2017.11.006
+    role: excluded after metadata audit; growth-versus-environment article did not match intended role
+  - doi: 10.1016/j.cosust.2016.12.006
+    role: plural values and nature's contributions
+  - doi: 10.1073/pnas.1525002113
+    role: relational values of nature
+  - doi: 10.1016/j.cosust.2017.12.005
+    role: excluded after metadata audit; storytelling article did not match intended role
+  - doi: 10.1016/j.ecolecon.2013.07.002
+    role: limits and politics of monetary valuation
+  - doi: 10.1016/j.ecoser.2016.11.007
+    role: integrated plural valuation
+  - doi: 10.1016/j.cosust.2018.09.005
+    role: relational values and pluralistic valuation
+  - doi: 10.1016/j.ecoser.2016.09.002
+    role: cultural ecosystem services
+  - doi: 10.1016/j.ecolecon.2024.108425
+    role: drought adaptation preferences and WTP
+  - doi: 10.1029/2000WR900320
+    role: WTP for drought-mitigation ecosystem services
+  - doi: 10.1111/j.1475-4932.2006.00293.x
+    role: WTP to avoid drought restrictions
+  - doi: 10.1002/qj.3803
+    role: ERA5 reanalysis
+  - doi: 10.5194/essd-13-4349-2021
+    role: ERA5-Land reanalysis
+  - doi: 10.1175/2009JCLI2909.1
+    role: standardized drought index
+  - doi: 10.1093/ije/dyh299
+    role: regression to the mean
+  - doi: 10.1126/science.185.4157.1124
+    role: judgment under uncertainty
+  - doi: 10.1037/h0055873
+    role: reinforcement and superstitious behavior
+  - doi: 10.1086/261849
+    role: social learning and informational cascades
+  - doi: 10.1016/0022-0531(82)90030-8
+    role: reputation under incomplete information
+  - doi: 10.1111/j.2517-6161.1972.tb00899.x
+    role: hazard modelling

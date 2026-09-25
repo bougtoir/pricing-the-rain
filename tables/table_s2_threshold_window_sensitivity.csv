@@ -1,0 +1,61 @@
+rule,outcome,apparent_success
+30-day deficit threshold,success_0.1mm_1d,0.5170068027210885
+dry-spell threshold,success_0.1mm_1d,0.3411279229711141
+high prospective hazard,success_0.1mm_1d,0.6303797468354431
+random drought day,success_0.1mm_1d,0.3634577603143418
+season-matched placebo,success_0.1mm_1d,0.4343283582089552
+30-day deficit threshold,success_0.1mm_3d,0.7380952380952381
+dry-spell threshold,success_0.1mm_3d,0.5859697386519945
+high prospective hazard,success_0.1mm_3d,0.8075949367088607
+random drought day,success_0.1mm_3d,0.5677799607072691
+season-matched placebo,success_0.1mm_3d,0.6268656716417911
+30-day deficit threshold,success_0.1mm_7d,0.8877551020408163
+dry-spell threshold,success_0.1mm_7d,0.7936726272352133
+high prospective hazard,success_0.1mm_7d,0.939240506329114
+random drought day,success_0.1mm_7d,0.7583497053045186
+season-matched placebo,success_0.1mm_7d,0.8074626865671641
+30-day deficit threshold,success_0.1mm_14d,0.9591836734693876
+dry-spell threshold,success_0.1mm_14d,0.8885832187070152
+high prospective hazard,success_0.1mm_14d,0.9772151898734176
+random drought day,success_0.1mm_14d,0.8722986247544204
+season-matched placebo,success_0.1mm_14d,0.9149253731343284
+30-day deficit threshold,success_1mm_1d,0.3741496598639456
+dry-spell threshold,success_1mm_1d,0.2090784044016506
+high prospective hazard,success_1mm_1d,0.4607594936708861
+random drought day,success_1mm_1d,0.1905697445972495
+season-matched placebo,success_1mm_1d,0.244776119402985
+30-day deficit threshold,success_1mm_3d,0.5918367346938775
+dry-spell threshold,success_1mm_3d,0.4016506189821183
+high prospective hazard,success_1mm_3d,0.6708860759493671
+random drought day,success_1mm_3d,0.381139489194499
+season-matched placebo,success_1mm_3d,0.4074626865671641
+30-day deficit threshold,success_1mm_7d,0.8231292517006803
+dry-spell threshold,success_1mm_7d,0.6011004126547456
+high prospective hazard,success_1mm_7d,0.8531645569620253
+random drought day,success_1mm_7d,0.593320235756385
+season-matched placebo,success_1mm_7d,0.6
+30-day deficit threshold,success_1mm_14d,0.9217687074829932
+dry-spell threshold,success_1mm_14d,0.7647867950481431
+high prospective hazard,success_1mm_14d,0.9468354430379748
+random drought day,success_1mm_14d,0.7445972495088409
+season-matched placebo,success_1mm_14d,0.7925373134328358
+30-day deficit threshold,success_5mm_1d,0.1836734693877551
+dry-spell threshold,success_5mm_1d,0.0784044016506189
+high prospective hazard,success_5mm_1d,0.2734177215189873
+random drought day,success_5mm_1d,0.1001964636542239
+season-matched placebo,success_5mm_1d,0.1149253731343283
+30-day deficit threshold,success_5mm_3d,0.3469387755102041
+dry-spell threshold,success_5mm_3d,0.1856946354883081
+high prospective hazard,success_5mm_3d,0.4455696202531645
+random drought day,success_5mm_3d,0.2043222003929273
+season-matched placebo,success_5mm_3d,0.2253731343283582
+30-day deficit threshold,success_5mm_7d,0.5816326530612245
+dry-spell threshold,success_5mm_7d,0.3383768913342503
+high prospective hazard,success_5mm_7d,0.6481012658227848
+random drought day,success_5mm_7d,0.37524557956778
+season-matched placebo,success_5mm_7d,0.3537313432835821
+30-day deficit threshold,success_5mm_14d,0.7312925170068028
+dry-spell threshold,success_5mm_14d,0.5116918844566712
+high prospective hazard,success_5mm_14d,0.810126582278481
+random drought day,success_5mm_14d,0.5363457760314342
+season-matched placebo,success_5mm_14d,0.5164179104477612

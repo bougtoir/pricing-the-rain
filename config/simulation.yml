@@ -1,0 +1,23 @@
+seed: 20260924
+replications_per_model: 10000
+providers: 4
+models:
+  - M0_random_timing
+  - M1_drought_demand
+  - M2_realistic_hazard
+  - M3_strategic_selection
+  - M4_bayesian_reputation
+  - M5_selective_recency
+parameters:
+  random_request_probability: 0.08
+  provider_cost: 0.5
+  fixed_price: 3.0
+  social_utility: 3.0
+  rainfall_value: 20.0
+  selective_success_weight: 1.5
+  selective_failure_weight: 0.6
+  recency: 0.85
+  selection_intercept: -1.2
+  selection_slope: 5.0
+  prior_mean: 0.5
+  prior_strength: 2.0

@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "weather": {
+    "region_days": 87664,
+    "locations": 8,
+    "missing_precipitation": 0,
+    "training_hazard_rows": 442
+  },
+  "events_and_inference": {
+    "pseudo_events": 2595,
+    "regression_n": 2595,
+    "region_year_clusters": 80,
+    "region_rule_clusters": 40,
+    "permutation_strata": 380,
+    "permutations": 1000
+  },
+  "simulation": {
+    "seed": 20260924,
+    "replications": 60000,
+    "replications_per_model": 10000,
+    "models": 6,
+    "providers": 4,
+    "max_apparent_success_mcse": 0.0028137136824737
+  },
+  "manuscript_and_package": {
+    "main_text_words_excluding_references": 3979,
+    "abstract_words": 188,
+    "references": 20,
+    "figures": 5,
+    "main_tables": 4,
+    "supplementary_tables": 6,
+    "highlights": 5,
+    "max_highlight_characters": 67,
+    "submission_archive_files": 26,
+    "author_actions_required": true
+  }
+}

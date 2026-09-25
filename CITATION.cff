@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript."
+title: "Pricing Apparent Environmental Performance"
+type: software
+authors:
+  - family-names: Onishi
+    given-names: Tatsuki
+repository-code: "https://github.com/bougtoir/pricing-the-rain"
+license: MIT
+version: 1.0.0
+date-released: 2026-09-24
