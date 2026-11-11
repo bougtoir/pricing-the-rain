@@ -1,0 +1,766 @@
+{
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     28
+    ]
+   ],
+   "date-time": "2026-08-28T05:25:08Z",
+   "timestamp": 1787894708045,
+   "version": "build-2784847793"
+  },
+  "reference-count": 55,
+  "publisher": "Elsevier BV",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2016,
+       2,
+       1
+      ]
+     ],
+     "date-time": "2016-02-01T00:00:00Z",
+     "timestamp": 1454284800000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "elsevier.com",
+    "sciencedirect.com"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "The Quarterly Review of Economics and Finance"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2016,
+     2
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.qref.2015.03.006",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2015,
+     4,
+     6
+    ]
+   ],
+   "date-time": "2015-04-06T06:36:25Z",
+   "timestamp": 1428302185000
+  },
+  "page": "141-160",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 60,
+  "special_numbering": "C",
+  "title": [
+   "Household risk taking after the financial crisis"
+  ],
+  "prefix": "10.1016",
+  "volume": "59",
+  "author": [
+   {
+    "given": "Sarah",
+    "family": "Necker",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Michael",
+    "family": "Ziegelmeyer",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "key": "10.1016/j.qref.2015.03.006_bib0005",
+    "series-title": "Once bitten, twice shy: Do personal experiences or wealth changes affect risk taking?",
+    "author": "Andersen",
+    "year": "2014"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.qref.2015.03.006_bib0010",
+    "doi-asserted-by": "crossref",
+    "first-page": "137",
+    "DOI": "10.1007/s11166-009-9075-z",
+    "article-title": "Are risk preferences stable? Comparing an experimental measure with a validated survey-based measure",
+    "volume": "39",
+    "author": "Anderson",
+    "year": "2009",
+    "journal-title": "Journal of Risk and Uncertainty"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.qref.2015.03.006_bib0015",
+    "doi-asserted-by": "crossref",
+    "first-page": "307",
+    "DOI": "10.1016/S0304-405X(98)00027-0",
+    "article-title": "A model of investor sentiment",
+    "volume": "49",
+    "author": "Barberis",
+    "year": "1998",
+    "journal-title": "Journal of Financial Economics"
+   },
+   {
+    "key": "10.1016/j.qref.2015.03.006_bib0020",
+    "article-title": "Deutsche Privathaushalte in der Finanz- und Wirtschaftskrise - Betroffenheit und Reaktionen",
+    "volume": "10",
+    "author": "B\u00f6rsch-Supan",
+    "year": "2009",
+    "journal-title": "MEA Studies"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.qref.2015.03.006_bib0025",
+    "doi-asserted-by": "crossref",
+    "first-page": "383",
+    "DOI": "10.1111/j.1468-2516.2010.00345.x",
+    "article-title": "Auswirkungen der Finanzkrise auf die private Altersvorsorge",
+    "volume": "11",
+    "author": "B\u00f6rsch-Supan",
+    "year": "2010",
+    "journal-title": "Perspektiven der Wirtschaftspolitik"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.qref.2015.03.006_bib0030",
+    "doi-asserted-by": "crossref",
+    "first-page": "713",
+    "DOI": "10.1257/aer.98.3.713",
+    "article-title": "Do wealth fluctuations generate time-varying risk aversion? Micro-evidence on individuals\u2019 asset allocation",
+    "volume": "98",
+    "author": "Brunnermeier",
+    "year": "2008",
+    "journal-title": "American Economic Review"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.qref.2015.03.006_bib0035",
+    "doi-asserted-by": "crossref",
+    "first-page": "2215",
+    "DOI": "10.1093/rof/rft052",
+    "article-title": "Once burned, twice shy? Financial literacy and wealth losses during the financial crisis",
+    "volume": "18",
+    "author": "Bucher-Koenen",
+    "year": "2014",
+    "journal-title": "Review of Finance"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.qref.2015.03.006_bib0040",
+    "doi-asserted-by": "crossref",
+    "first-page": "129",
+    "DOI": "10.1509/jmkr.42.2.129.62286",
+    "article-title": "Three cheers \u2013 psychological, theoretical, empirical \u2013 For loss aversion",
+    "volume": "42",
+    "author": "Camerer",
+    "year": "2005",
+    "journal-title": "Journal of Marketing Research"
+   },
+   {
+    "key": "10.1016/j.qref.2015.03.006_bib0045",
+    "series-title": "Microeconometrics: Methods and applications",
+    "author": "Cameron",
+    "year": "2005"
+   },
+   {
+    "key": "10.1016/j.qref.2015.03.006_bib0050",
+    "series-title": "Risk-taking behavior in the wake of natural disasters",
+    "author": "Cameron",
+    "year": "2012"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.qref.2015.03.006_bib0055",
+    "doi-asserted-by": "crossref",
+    "first-page": "1553",
+    "DOI": "10.1111/j.1540-6261.2006.00883.x",
+    "article-title": "Household finance",
+    "volume": "61",
+    "author": "Campbell",
+    "year": "2006",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "10.1016/j.qref.2015.03.006_bib0060",
+    "article-title": "The psychological impact of booms and busts on risk preferences in financial professionals",
+    "author": "Cohn",
+    "year": "2012",
+    "journal-title": "mimeo"
+   },
+   {
+    "key": "10.1016/j.qref.2015.03.006_bib0065",
+    "article-title": "May I measure your risk attitude? Eliciting risk preferences in large surveys",
+    "author": "Coppola",
+    "year": "2013",
+    "journal-title": "mimeo"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.qref.2015.03.006_bib0070",
+    "doi-asserted-by": "crossref",
+    "first-page": "794",
+    "DOI": "10.1016/j.joep.2012.03.001",
+    "article-title": "A longitudinal study of financial risk tolerance",
+    "volume": "33",
+    "author": "de Venter",
+    "year": "2012",
+    "journal-title": "Journal of Economic Psychology"
+   },
+   {
+    "key": "10.1016/j.qref.2015.03.006_bib0075",
+    "series-title": "The analysis of household surveys: A microeconometric approach to development policy",
+    "author": "Deaton",
+    "year": "1997"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.qref.2015.03.006_bib0080",
+    "doi-asserted-by": "crossref",
+    "first-page": "522",
+    "DOI": "10.1111/j.1542-4774.2011.01015.x",
+    "article-title": "Individual risk attitudes: Measurement, determinants, and behavioral consequences",
+    "volume": "9",
+    "author": "Dohmen",
+    "year": "2011",
+    "journal-title": "Journal of the European Economic Association"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.qref.2015.03.006_bib0085",
+    "doi-asserted-by": "crossref",
+    "first-page": "352",
+    "DOI": "10.1002/jae.1225",
+    "article-title": "Measuring and interpreting expectations of equity returns",
+    "volume": "26",
+    "author": "Dominitz",
+    "year": "2011",
+    "journal-title": "Journal of Applied Econometrics"
+   },
+   {
+    "key": "10.1016/j.qref.2015.03.006_bib0090",
+    "series-title": "Economics of risk and time",
+    "author": "Gollier",
+    "year": "2001"
+   },
+   {
+    "key": "10.1016/j.qref.2015.03.006_bib0095",
+    "article-title": "Modelling ordered choices",
+    "author": "Greene",
+    "year": "2009",
+    "journal-title": "mimeo"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.qref.2015.03.006_bib0100",
+    "first-page": "158",
+    "article-title": "Income risk, borrowing constraints, and portfolio choice",
+    "volume": "86",
+    "author": "Guiso",
+    "year": "1996",
+    "journal-title": "American Economic Review"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.qref.2015.03.006_bib0105",
+    "doi-asserted-by": "crossref",
+    "first-page": "1109",
+    "DOI": "10.1162/JEEA.2008.6.6.1109",
+    "article-title": "Risk aversion, wealth, and background risk",
+    "volume": "6",
+    "author": "Guiso",
+    "year": "2008",
+    "journal-title": "Journal of the European Economic Association"
+   },
+   {
+    "key": "10.1016/j.qref.2015.03.006_bib0110",
+    "series-title": "Time Varying Risk Aversion",
+    "author": "Guiso",
+    "year": "2013"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.qref.2015.03.006_bib0115",
+    "doi-asserted-by": "crossref",
+    "first-page": "1433",
+    "DOI": "10.1111/j.1540-6261.2006.00877.x",
+    "article-title": "Uncovering the risk-return relation in the stock market",
+    "volume": "61",
+    "author": "Guo",
+    "year": "2006",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "10.1016/j.qref.2015.03.006_bib0120",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1111/1468-0297.00488",
+    "article-title": "Portfolio choice in the presence of background risk",
+    "volume": "110",
+    "author": "Heaton",
+    "year": "2000",
+    "journal-title": "Economic Journal"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.qref.2015.03.006_bib0125",
+    "doi-asserted-by": "crossref",
+    "first-page": "60",
+    "DOI": "10.1016/j.jbankfin.2012.08.007",
+    "article-title": "Individual investor perceptions and behavior during the financial crisis",
+    "volume": "37",
+    "author": "Hoffmann",
+    "year": "2013",
+    "journal-title": "Journal of Banking and Finance"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.qref.2015.03.006_bib0130",
+    "doi-asserted-by": "crossref",
+    "first-page": "393",
+    "DOI": "10.1002/jae.1226",
+    "article-title": "Stock market crash and expectations of American households",
+    "volume": "26",
+    "author": "Hudomiet",
+    "year": "2011",
+    "journal-title": "Journal of Applied Econometrics"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.qref.2015.03.006_bib0135",
+    "doi-asserted-by": "crossref",
+    "first-page": "416",
+    "DOI": "10.1002/jae.1242",
+    "article-title": "Stock market expectations of Dutch households",
+    "volume": "26",
+    "author": "Hurd",
+    "year": "2011",
+    "journal-title": "Journal of Applied Econometrics"
+   },
+   {
+    "key": "10.1016/j.qref.2015.03.006_bib0140",
+    "series-title": "Frontiers in the economics of aging",
+    "first-page": "353",
+    "article-title": "Consumption and savings balances of the elderly: Experimental evidence on survey response bias",
+    "author": "Hurd",
+    "year": "1998"
+   },
+   {
+    "key": "10.1016/j.qref.2015.03.006_bib0145",
+    "doi-asserted-by": "crossref",
+    "first-page": "564",
+    "DOI": "10.1016/j.joep.2011.04.002",
+    "article-title": "Subjective measures of risk aversion, fixed costs, and portfolio choice",
+    "volume": "32",
+    "author": "Kapteyn",
+    "year": "2011",
+    "journal-title": "Journal of Economic Psychology"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.qref.2015.03.006_bib0150",
+    "doi-asserted-by": "crossref",
+    "first-page": "321",
+    "DOI": "10.1016/j.jfineco.2011.01.010",
+    "article-title": "Peer performance and stock market entry",
+    "volume": "104",
+    "author": "Kaustia",
+    "year": "2012",
+    "journal-title": "Journal of Financial Economics"
+   },
+   {
+    "key": "10.1016/j.qref.2015.03.006_bib0155",
+    "series-title": "The general theory of employment, interest and money",
+    "author": "Keynes",
+    "year": "1936"
+   },
+   {
+    "key": "10.1016/j.qref.2015.03.006_bib0160",
+    "article-title": "Stock market expectations and portfolio choice of American households",
+    "author": "Kezdi",
+    "year": "2008",
+    "journal-title": "mimeo"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.qref.2015.03.006_bib0165",
+    "doi-asserted-by": "crossref",
+    "first-page": "509",
+    "DOI": "10.1097/WNR.0b013e3282f85c01",
+    "article-title": "Nucleus accumbens activation mediates the influence of reward cues on financial risk taking",
+    "volume": "19",
+    "author": "Knutson",
+    "year": "2008",
+    "journal-title": "NeuroReport"
+   },
+   {
+    "key": "10.1016/j.qref.2015.03.006_bib0170",
+    "doi-asserted-by": "crossref",
+    "first-page": "605",
+    "DOI": "10.1017/S0022109011000123",
+    "article-title": "The impact of affect on beliefs, preferences and financial decisions",
+    "volume": "46",
+    "author": "Kuhnen",
+    "year": "2011",
+    "journal-title": "Journal of Financial and Quantitative Analysis"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.qref.2015.03.006_bib0175",
+    "doi-asserted-by": "crossref",
+    "first-page": "267",
+    "DOI": "10.1037/0033-2909.127.2.267",
+    "article-title": "Risk as feelings",
+    "volume": "127",
+    "author": "Loewenstein",
+    "year": "2001",
+    "journal-title": "Psychological Bulletin"
+   },
+   {
+    "key": "10.1016/j.qref.2015.03.006_bib0180",
+    "series-title": "Social interaction effects and individual portfolio choice: Evidence from 401 (k) Pension Plan Investors",
+    "author": "Lu",
+    "year": "2012"
+   },
+   {
+    "key": "10.1016/j.qref.2015.03.006_bib0185",
+    "series-title": "Financial literacy and planning: Implications for retirement wellbeing",
+    "author": "Lusardi",
+    "year": "2011"
+   },
+   {
+    "key": "10.1016/j.qref.2015.03.006_bib0190",
+    "doi-asserted-by": "crossref",
+    "first-page": "497",
+    "DOI": "10.1017/S1474747211000448",
+    "article-title": "Financial literacy around the world: An overview",
+    "volume": "10",
+    "author": "Lusardi",
+    "year": "2011",
+    "journal-title": "Journal of Pension Economics and Finance"
+   },
+   {
+    "key": "10.1016/j.qref.2015.03.006_bib0195",
+    "doi-asserted-by": "crossref",
+    "first-page": "373",
+    "DOI": "10.1093/qje/qjq004",
+    "article-title": "Depression babies: Do macroeconomic experiences affect risk-taking?",
+    "volume": "126",
+    "author": "Malmendier",
+    "year": "2011",
+    "journal-title": "Quarterly Journal of Economics"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.qref.2015.03.006_bib0200",
+    "doi-asserted-by": "crossref",
+    "first-page": "1329",
+    "DOI": "10.1111/j.1468-0262.2004.00537.x",
+    "article-title": "Measuring expectations",
+    "volume": "72",
+    "author": "Manski",
+    "year": "2004",
+    "journal-title": "Econometrica"
+   },
+   {
+    "issue": "7106",
+    "key": "10.1016/j.qref.2015.03.006_bib0205",
+    "doi-asserted-by": "crossref",
+    "first-page": "1042",
+    "DOI": "10.1038/nature05051",
+    "article-title": "Dopamine-dependent prediction errors underpin reward-seeking behaviour in humans",
+    "volume": "442",
+    "author": "Pessiglione",
+    "year": "2006",
+    "journal-title": "Nature"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.qref.2015.03.006_bib0210",
+    "doi-asserted-by": "crossref",
+    "first-page": "203",
+    "DOI": "10.1007/s11238-012-9296-5",
+    "article-title": "Stability of risk preference measures: Results from a field experiment on french farmers",
+    "volume": "73",
+    "author": "Reynaud",
+    "year": "2012",
+    "journal-title": "Theory and Decision"
+   },
+   {
+    "key": "10.1016/j.qref.2015.03.006_bib0215",
+    "series-title": "Multiple imputation for nonresponse in surveys",
+    "author": "Rubin",
+    "year": "1987"
+   },
+   {
+    "issue": "434",
+    "key": "10.1016/j.qref.2015.03.006_bib0220",
+    "doi-asserted-by": "crossref",
+    "first-page": "473",
+    "DOI": "10.1080/01621459.1996.10476908",
+    "article-title": "Multiple imputation after 18+ years",
+    "volume": "91",
+    "author": "Rubin",
+    "year": "1996",
+    "journal-title": "Journal of the American Statistical Association"
+   },
+   {
+    "issue": "04",
+    "key": "10.1016/j.qref.2015.03.006_bib0225",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1142/S2010139212500206",
+    "article-title": "How much does risk tolerance change?",
+    "volume": "2",
+    "author": "Sahm",
+    "year": "2012",
+    "journal-title": "Quarterly Journal of Finance"
+   },
+   {
+    "key": "10.1016/j.qref.2015.03.006_bib0230",
+    "doi-asserted-by": "crossref",
+    "first-page": "135",
+    "DOI": "10.1016/0377-2217(93)90033-J",
+    "article-title": "Risk-value models",
+    "volume": "70",
+    "author": "Sarin",
+    "year": "1993",
+    "journal-title": "European Journal of Operational Research"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.qref.2015.03.006_bib0235",
+    "doi-asserted-by": "crossref",
+    "first-page": "101",
+    "DOI": "10.1007/s10182-008-0053-6",
+    "article-title": "A Markov Chain Monte Carlo algorithm for multiple imputation in large surveys",
+    "volume": "92",
+    "author": "Schunk",
+    "year": "2008",
+    "journal-title": "Advances in Statistical Analysis"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.qref.2015.03.006_bib0240",
+    "doi-asserted-by": "crossref",
+    "first-page": "226",
+    "DOI": "10.1016/j.joep.2007.07.001",
+    "article-title": "The risk perceptions of individual investors",
+    "volume": "29",
+    "author": "Veld",
+    "year": "2008",
+    "journal-title": "Journal of Economic Psychology"
+   },
+   {
+    "key": "10.1016/j.qref.2015.03.006_bib0245",
+    "series-title": "NBER Macroeconomics Annual 2003, Vol. 18",
+    "first-page": "139",
+    "article-title": "Perspectives on behavioral finance: Does irrationality disappear with wealth? Evidence from expectations and actions",
+    "author": "Vissing-Jorgensen",
+    "year": "2003"
+   },
+   {
+    "key": "10.1016/j.qref.2015.03.006_bib0250",
+    "doi-asserted-by": "crossref",
+    "first-page": "79",
+    "DOI": "10.1002/wcs.5",
+    "article-title": "Risk attitude and preference",
+    "volume": "1",
+    "author": "Weber",
+    "year": "2010",
+    "journal-title": "WIREs Cognitive Science"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.qref.2015.03.006_bib0255",
+    "doi-asserted-by": "crossref",
+    "first-page": "123",
+    "DOI": "10.1287/mnsc.43.2.123",
+    "article-title": "Perceived risk attitudes: Relating risk perception to risky choice",
+    "volume": "43",
+    "author": "Weber",
+    "year": "1997",
+    "journal-title": "Management Science"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.qref.2015.03.006_bib0260",
+    "doi-asserted-by": "crossref",
+    "first-page": "847",
+    "DOI": "10.1093/rof/rfs024",
+    "article-title": "Who takes risks when and why: Determinants of changes in investor risk taking",
+    "volume": "17",
+    "author": "Weber",
+    "year": "2013",
+    "journal-title": "Review of Finance"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.qref.2015.03.006_bib0265",
+    "doi-asserted-by": "crossref",
+    "first-page": "58",
+    "DOI": "10.1177/1536867X0600600104",
+    "article-title": "Generalized ordered logit/partial proportional odds models for ordinal dependent variables",
+    "volume": "6",
+    "author": "Williams",
+    "year": "2006",
+    "journal-title": "The Stata Journal"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.qref.2015.03.006_bib0270",
+    "doi-asserted-by": "crossref",
+    "first-page": "749",
+    "DOI": "10.1016/S0167-4870(96)00034-7",
+    "article-title": "Risk attitudes and risky behavior",
+    "volume": "17",
+    "author": "W\u00e4rneryd",
+    "year": "1996",
+    "journal-title": "Journal of Economic Psychology"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.qref.2015.03.006_bib0275",
+    "doi-asserted-by": "crossref",
+    "first-page": "49",
+    "DOI": "10.1007/s10182-012-0197-2",
+    "article-title": "Illuminate the unknown: Evaluation of imputation procedures based on the SAVE survey",
+    "volume": "97",
+    "author": "Ziegelmeyer",
+    "year": "2013",
+    "journal-title": "AStA Advances in Statistical Analysis"
+   }
+  ],
+  "container-title": [
+   "The Quarterly Review of Economics and Finance"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S106297691500037X?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S106297691500037X?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2021,
+     11,
+     3
+    ]
+   ],
+   "date-time": "2021-11-03T17:00:05Z",
+   "timestamp": 1635958805000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S106297691500037X"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2016,
+     2
+    ]
+   ]
+  },
+  "references-count": 55,
+  "alternative-id": [
+   "S106297691500037X"
+  ],
+  "URL": "https://doi.org/10.1016/j.qref.2015.03.006",
+  "relation": {},
+  "ISSN": [
+   "1062-9769"
+  ],
+  "issn-type": [
+   {
+    "value": "1062-9769",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2016,
+     2
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "Elsevier",
+    "name": "publisher",
+    "label": "This article is maintained by"
+   },
+   {
+    "value": "Household risk taking after the financial crisis",
+    "name": "articletitle",
+    "label": "Article Title"
+   },
+   {
+    "value": "The Quarterly Review of Economics and Finance",
+    "name": "journaltitle",
+    "label": "Journal Title"
+   },
+   {
+    "value": "https://doi.org/10.1016/j.qref.2015.03.006",
+    "name": "articlelink",
+    "label": "CrossRef DOI link to publisher maintained version"
+   },
+   {
+    "value": "article",
+    "name": "content_type",
+    "label": "Content Type"
+   },
+   {
+    "value": "Copyright \u00a9 2015 The Board of Trustees of the University of Illinois. Published by Elsevier Inc. All rights reserved.",
+    "name": "copyright",
+    "label": "Copyright"
+   }
+  ]
+ }
+}

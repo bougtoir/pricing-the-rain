@@ -1,0 +1,63 @@
+# Domain-agnostic rare-event pricing simulation (generalization layer).
+# All quantities are generated; nothing here is an empirical estimate.
+seed: 20261012
+replications: 2000
+equivalence_replications: 1500
+horizon: 4000
+burn_in: 200
+providers: 6
+
+regimes:
+  - name: common
+    base_prob: 0.30
+  - name: moderately_rare
+    base_prob: 0.10
+  - name: rare
+    base_prob: 0.03
+  - name: very_rare
+    base_prob: 0.01
+
+# Two-state latent hazard M_t in {0,1}; P(M=1) = stationary share.
+hazard_state:
+  persistence: 0.97
+  high_share: 0.30
+  low_multiplier: 0.6
+  high_multiplier: 2.0
+
+# Demand: D_t ~ Bernoulli(expit(intercept + slope * M_t)).
+# Exogenous rule: constant probability equal to the marginal endogenous
+# request probability of the same regime (comparability decision).
+demand:
+  intercept: -1.9
+  slope: 2.4
+
+# Acceptance: A_t ~ Bernoulli(expit(intercept + slope*(p_t/base_prob - 1) + sel_j))
+# under the endogenous rule (relative hazard); constant expit(intercept) otherwise.
+acceptance:
+  intercept: 1.4
+  slope: 4.0
+  selectivity_spread: 0.7
+
+learning:
+  prior_mean_scale: 1.0   # prior mean = base_prob * scale (documented, not estimated)
+  prior_strength: 2.0
+  recency_decay: 0.995
+  selective_success_weight: 1.0
+  selective_failure_weight: 0.35
+
+# Prelec one-parameter weighting w(p) = exp(-(-ln p)^alpha). alpha=0.65 is the
+# commonly reported central estimate (behavioral assumption, not estimated).
+weighting:
+  prelec_alpha: 0.65
+
+pricing:
+  alpha: 1.0
+  value_base: 1.0
+  value_state_multiplier: 1.0   # V_t = base * (1 + multiplier * M_t)
+  reputation_gamma: 0.5
+  reputation_decay: 0.995
+
+# True efficacy added to p_t on intervened days (observational-equivalence scan).
+efficacy_grid: [0.0, 0.02, 0.05, 0.10]
+
+convergence_sample_sizes: [250, 500, 1000, 2000]

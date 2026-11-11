@@ -1,0 +1,9 @@
+Location,Latitude,Longitude,Rainfall regime,Region-days,Missing precipitation
+"Tucson, United States",32.2226,-110.9747,hot semi-arid / monsoonal,10958,0
+"Cape Town, South Africa",-33.9249,18.4241,Mediterranean winter-rainfall,10958,0
+"London, United Kingdom",51.5074,-0.1278,temperate maritime,10958,0
+"Mumbai, India",19.076,72.8777,tropical monsoon,10958,0
+"Nairobi, Kenya",-1.2921,36.8219,subtropical highland / bimodal rainfall,10958,0
+"Darwin, Australia",-12.4634,130.8456,tropical savanna / monsoon,10958,0
+"Tokyo, Japan",35.6762,139.6503,humid subtropical,10958,0
+"Brasília, Brazil",-15.7939,-47.8828,tropical savanna,10958,0

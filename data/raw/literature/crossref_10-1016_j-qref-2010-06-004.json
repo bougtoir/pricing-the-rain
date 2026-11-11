@@ -1,0 +1,469 @@
+{
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2025,
+     10,
+     19
+    ]
+   ],
+   "date-time": "2025-10-19T21:15:38Z",
+   "timestamp": 1760908538957
+  },
+  "reference-count": 29,
+  "publisher": "Elsevier BV",
+  "issue": "4",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2010,
+       11,
+       1
+      ]
+     ],
+     "date-time": "2010-11-01T00:00:00Z",
+     "timestamp": 1288569600000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "The Quarterly Review of Economics and Finance"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2010,
+     11
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.qref.2010.06.004",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2010,
+     6,
+     26
+    ]
+   ],
+   "date-time": "2010-06-26T10:56:38Z",
+   "timestamp": 1277549798000
+  },
+  "page": "548-558",
+  "source": "Crossref",
+  "is-referenced-by-count": 9,
+  "title": [
+   "Adverse selection and reputation in a world of cheap talk"
+  ],
+  "prefix": "10.1016",
+  "volume": "50",
+  "author": [
+   {
+    "suffix": "II",
+    "given": "Craig A.",
+    "family": "Depken",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   },
+   {
+    "given": "Ying",
+    "family": "Zhang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "role": "author",
+      "vocabulary": "crossref"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "key": "10.1016/j.qref.2010.06.004_bib1",
+    "series-title": "Technical report",
+    "article-title": "Disclosing information on the Internet: Is it noise or is it news?",
+    "author": "Admati",
+    "year": "2001"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.qref.2010.06.004_bib2",
+    "doi-asserted-by": "crossref",
+    "first-page": "1259",
+    "DOI": "10.1111/j.1540-6261.2004.00662.x",
+    "article-title": "Is all that talk just noise? The information content of Internet stock message boards",
+    "volume": "59",
+    "author": "Antweiler",
+    "year": "2004",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "10.1016/j.qref.2010.06.004_bib3",
+    "doi-asserted-by": "crossref",
+    "first-page": "87",
+    "DOI": "10.1016/j.jacceco.2005.10.001",
+    "article-title": "Buys, holds, and sells: The distribution of investment banks\u2019 stock ratings and the implications for the profitability of analysts\u2019 recommendations",
+    "volume": "41",
+    "author": "Barber",
+    "year": "2006",
+    "journal-title": "Journal of Accounting and Economics"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.qref.2010.06.004_bib4",
+    "doi-asserted-by": "crossref",
+    "first-page": "17",
+    "DOI": "10.2307/3666148",
+    "article-title": "Optimism biases among brokerage and non-brokerage firms\u2019 equity recommendations: Agency costs in the investment industry",
+    "volume": "27",
+    "author": "Carleton",
+    "year": "1998",
+    "journal-title": "Financial Management"
+   },
+   {
+    "issue": "9",
+    "key": "10.1016/j.qref.2010.06.004_bib5",
+    "doi-asserted-by": "crossref",
+    "first-page": "1375",
+    "DOI": "10.1287/mnsc.1070.0704",
+    "article-title": "Yahoo! For Amazon: Sentiment extraction from small talk on the Web",
+    "volume": "53",
+    "author": "Das",
+    "year": "2007",
+    "journal-title": "Management Science"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.qref.2010.06.004_bib6",
+    "doi-asserted-by": "crossref",
+    "first-page": "170",
+    "DOI": "10.1504/IJEB.2010.032094",
+    "article-title": "Auction characteristics, seller reputation, and closing prices: Evidence from eBay sales of the iPhone",
+    "volume": "8",
+    "author": "Depken",
+    "year": "2010",
+    "journal-title": "International Journal of Electronic Business"
+   },
+   {
+    "key": "10.1016/j.qref.2010.06.004_bib7",
+    "doi-asserted-by": "crossref",
+    "first-page": "909",
+    "DOI": "10.1162/00335530360698469",
+    "article-title": "Persuasion bias, social influence, and uni-dimensional opinions",
+    "volume": "118",
+    "author": "DeMarzo",
+    "year": "2003",
+    "journal-title": "Quarterly Journal of Economics"
+   },
+   {
+    "key": "10.1016/j.qref.2010.06.004_bib8",
+    "series-title": "Working paper",
+    "article-title": "Are stars\u2019 opinions worth more? The relation between analyst reputation and recommendation values",
+    "author": "Fang",
+    "year": "2005"
+   },
+   {
+    "key": "10.1016/j.qref.2010.06.004_bib9",
+    "series-title": "Working paper",
+    "article-title": "Predictive value of stock message board sentiments",
+    "author": "Gu",
+    "year": "2007"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.qref.2010.06.004_bib10",
+    "doi-asserted-by": "crossref",
+    "first-page": "62",
+    "DOI": "10.2469/faj.v56.n1.2331",
+    "article-title": "How \u2018Foolish\u2019 are Internet investors?",
+    "volume": "56",
+    "author": "Hirschey",
+    "year": "2000",
+    "journal-title": "Financial Analyst Journal"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.qref.2010.06.004_bib11",
+    "doi-asserted-by": "crossref",
+    "first-page": "353",
+    "DOI": "10.1111/j.1530-9134.2006.00103.x",
+    "article-title": "Reputation in auctions: Theory and evidence from eBay",
+    "volume": "15",
+    "author": "Houser",
+    "year": "2006",
+    "journal-title": "Journal of Economics and Management Strategy"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.qref.2010.06.004_bib12",
+    "doi-asserted-by": "crossref",
+    "first-page": "673",
+    "DOI": "10.1111/j.1540-6261.2005.00743.x",
+    "article-title": "Trade generation, reputation, and sell-side analysts",
+    "volume": "60",
+    "author": "Jackson",
+    "year": "2005",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "10.1016/j.qref.2010.06.004_bib13",
+    "doi-asserted-by": "crossref",
+    "first-page": "1083",
+    "DOI": "10.1111/j.1540-6261.2004.00657.x",
+    "article-title": "Analyzing the analysts: When do recommendations add value?",
+    "volume": "59",
+    "author": "Jegadeesh",
+    "year": "2004",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "10.1016/j.qref.2010.06.004_bib14",
+    "doi-asserted-by": "crossref",
+    "first-page": "207",
+    "DOI": "10.1016/S0304-405X(02)00224-6",
+    "article-title": "Short-sale constraints and stock returns",
+    "volume": "66",
+    "author": "Jones",
+    "year": "2002",
+    "journal-title": "Journal of Financial Economics"
+   },
+   {
+    "key": "10.1016/j.qref.2010.06.004_bib15",
+    "series-title": "A guide to econometrics",
+    "author": "Kennedy",
+    "year": "2003"
+   },
+   {
+    "key": "10.1016/j.qref.2010.06.004_bib16",
+    "series-title": "Working paper",
+    "article-title": "Noise trading and volatility: Evidence from day trading and message boards",
+    "author": "Koski",
+    "year": "2007"
+   },
+   {
+    "key": "10.1016/j.qref.2010.06.004_bib17",
+    "doi-asserted-by": "crossref",
+    "first-page": "653",
+    "DOI": "10.1093/rfs/12.4.653",
+    "article-title": "Conflict of interest and the credibility of underwriter analyst recommendations",
+    "volume": "12",
+    "author": "Michaely",
+    "year": "1999",
+    "journal-title": "Review of Financial Studies"
+   },
+   {
+    "key": "10.1016/j.qref.2010.06.004_bib18",
+    "series-title": "Keele economics research papers KERP 2005/14",
+    "article-title": "Maximum likelihood estimation of endogenous switching and sample selection models for binary, count, and ordinal variables",
+    "author": "Miranda",
+    "year": "2005"
+   },
+   {
+    "key": "10.1016/j.qref.2010.06.004_bib19",
+    "doi-asserted-by": "crossref",
+    "first-page": "1279",
+    "DOI": "10.1257/aer.89.5.1279",
+    "article-title": "Do investors trade too much?",
+    "volume": "89",
+    "author": "Odean",
+    "year": "1999",
+    "journal-title": "American Economic Review"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.qref.2010.06.004_bib20",
+    "doi-asserted-by": "crossref",
+    "first-page": "259",
+    "DOI": "10.1023/A:1009668711298",
+    "article-title": "Analyst forecasting ability and the stock price reaction to forecast revisions",
+    "volume": "5",
+    "author": "Park",
+    "year": "2000",
+    "journal-title": "Review of Accounting Studies"
+   },
+   {
+    "key": "10.1016/j.qref.2010.06.004_bib21",
+    "series-title": "Working paper",
+    "article-title": "Costly short-selling and stock price adjustment to earnings announcements",
+    "author": "Reed",
+    "year": "2007"
+   },
+   {
+    "key": "10.1016/j.qref.2010.06.004_bib22",
+    "series-title": "The economics of Internet and e-commerce, vol. 11",
+    "first-page": "127",
+    "article-title": "Trust among strangers in Internet transactions: Empirical analysis of eBay's reputation system",
+    "author": "Resnick",
+    "year": "2002"
+   },
+   {
+    "issue": "6",
+    "key": "10.1016/j.qref.2010.06.004_bib23",
+    "doi-asserted-by": "crossref",
+    "first-page": "423",
+    "DOI": "10.1108/03074350810872813",
+    "article-title": "Online talk: Does it matter?",
+    "volume": "34",
+    "author": "Sabherwal",
+    "year": "2008",
+    "journal-title": "Managerial Finance"
+   },
+   {
+    "key": "10.1016/j.qref.2010.06.004_bib24",
+    "unstructured": "SEC 2006 press: http://www.sec.gov/news/press/2006/2006-50.htm."
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.qref.2010.06.004_bib25",
+    "doi-asserted-by": "crossref",
+    "first-page": "1811",
+    "DOI": "10.2307/2328997",
+    "article-title": "Reputation and performance among security analysts",
+    "volume": "47",
+    "author": "Stickel",
+    "year": "1992",
+    "journal-title": "Journal of Finance"
+   },
+   {
+    "key": "10.1016/j.qref.2010.06.004_bib26",
+    "doi-asserted-by": "crossref",
+    "first-page": "313",
+    "DOI": "10.1111/1468-0416.11403",
+    "article-title": "Internet message board activity and market efficiency: A case study of the Internet service sector using RagingBull.com",
+    "volume": "11",
+    "author": "Tumarkin",
+    "year": "2002",
+    "journal-title": "Financial Markets Institutions and Instruments"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.qref.2010.06.004_bib27",
+    "doi-asserted-by": "crossref",
+    "first-page": "41",
+    "DOI": "10.2469/faj.v57.n3.2449",
+    "article-title": "News or noise? Internet message board activity and stock prices",
+    "volume": "57",
+    "author": "Tumarkin",
+    "year": "2001",
+    "journal-title": "Financial Analysts Journal"
+   },
+   {
+    "key": "10.1016/j.qref.2010.06.004_bib28",
+    "series-title": "Econometric analysis of cross section and panel data",
+    "author": "Wooldridge",
+    "year": "2002"
+   },
+   {
+    "key": "10.1016/j.qref.2010.06.004_bib29",
+    "doi-asserted-by": "crossref",
+    "first-page": "96",
+    "DOI": "10.1007/s12197-008-9063-1",
+    "article-title": "Are day traders bias free?\u2014Evidence from Internet stock message boards",
+    "volume": "34",
+    "author": "Zhang",
+    "year": "2009",
+    "journal-title": "Journal of Economics and Finance"
+   }
+  ],
+  "container-title": [
+   "The Quarterly Review of Economics and Finance"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S1062976910000475?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S1062976910000475?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2018,
+     12,
+     10
+    ]
+   ],
+   "date-time": "2018-12-10T05:20:07Z",
+   "timestamp": 1544419207000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1062976910000475"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2010,
+     11
+    ]
+   ]
+  },
+  "references-count": 29,
+  "journal-issue": {
+   "issue": "4",
+   "published-print": {
+    "date-parts": [
+     [
+      2010,
+      11
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "S1062976910000475"
+  ],
+  "URL": "https://doi.org/10.1016/j.qref.2010.06.004",
+  "relation": {},
+  "ISSN": [
+   "1062-9769"
+  ],
+  "issn-type": [
+   {
+    "value": "1062-9769",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2010,
+     11
+    ]
+   ]
+  }
+ }
+}
